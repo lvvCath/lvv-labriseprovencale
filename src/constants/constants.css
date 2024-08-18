@@ -1,0 +1,26 @@
+:root {
+    /* Color Palette */
+    --header-text-color: #484039;
+    --text-color: #6E5F53;
+    --palette-1: #F3F4F4;
+    --palette-2: #D6CFC6;
+    --palette-3: #D7C8BA;
+    --palette-4: #A59E96;
+    --palette-5: #6E5F53;
+  
+    /* Font Styles */
+    --header-font-family: 'Tangerine', cursive;
+    --text-font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Header Text Style */
+  .header-text {
+    color: var(--header-text-color);
+    font-family: var(--header-font-family);
+  }
+  
+  /* Normal Text Style */
+  .text {
+    color: var(--text-color);
+    font-family: var(--text-font-family);
+  }

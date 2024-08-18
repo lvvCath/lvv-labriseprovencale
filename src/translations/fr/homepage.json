@@ -1,0 +1,10 @@
+{
+  "section1": {
+    "title": "Bienvenue sur notre page d'accueil",
+    "content": "Ceci est la première section de notre page d'accueil."
+  },
+  "section2": {
+    "title": "À propos de nous",
+    "content": "Nous sommes une entreprise qui valorise..."
+  }
+}
