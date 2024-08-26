@@ -1,4 +1,4 @@
-import { Navbar } from "./components/Navbar";
+import { NavBar } from "./components/Navbar";
 import { LanguageProvider } from "./components/LanguageContext";
 import { HomePage } from "./pages/homepage/Homepage";
 import "./constants/constants.css";
@@ -7,7 +7,7 @@ import "./constants/constants.css";
 function App() {
   return (
     <LanguageProvider>
-      <Navbar />
+      <NavBar />
       <HomePage />
     </LanguageProvider>
   );

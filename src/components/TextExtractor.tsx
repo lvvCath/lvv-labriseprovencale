@@ -1,21 +1,19 @@
 import { useState, useEffect } from "react";
 
 interface TextExtractorProps {
-  language: string;
+  folder: string;
   page: string;
   section: string;
   field: string;
 }
 
-function GetText({ language, page, section, field }: TextExtractorProps) {
+function GetText({ folder, page, section, field }: TextExtractorProps) {
   const [text, setText] = useState<string | null>(null);
 
   useEffect(() => {
     async function fetchText() {
       try {
-        const response = await import(
-          `../translations/${language}/${page}.json`
-        );
+        const response = await import(`../translations/${folder}/${page}.json`);
         setText(response[section][field]);
       } catch (error) {
         console.error(
@@ -27,7 +25,7 @@ function GetText({ language, page, section, field }: TextExtractorProps) {
     }
 
     fetchText();
-  }, [language, page, section, field]);
+  }, [folder, page, section, field]);
 
   return <>{text}</>;
 }

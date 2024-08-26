@@ -1,0 +1,23 @@
+{
+  "en": {
+    "thevilla": "The Villa",
+    "guesthouse": "Guest House",
+    "outdoor": "Outdoor",
+    "information": "Information",
+    "contactus": "Contact Us"
+  },
+  "fr": {
+    "thevilla": "La Villa",
+    "guesthouse": "Suite d'invités",
+    "outdoor": "Extérieur",
+    "information": "Informations",
+    "contactus": "Contactez-nous"
+  },
+  "zh": {
+    "thevilla": "别墅",
+    "guesthouse": "客人套房",
+    "outdoor": "室外",
+    "information": "信息",
+    "contactus": "联系我们"
+  }
+}

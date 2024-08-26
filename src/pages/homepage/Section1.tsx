@@ -8,7 +8,7 @@ function Section1() {
     <section>
       <h1>
         <GetText
-          language={language}
+          folder={language}
           page="homepage"
           section="section1"
           field="content"
@@ -16,7 +16,7 @@ function Section1() {
       </h1>
       <p>
         <GetText
-          language={language}
+          folder={language}
           page="homepage"
           section="section1"
           field="content"
