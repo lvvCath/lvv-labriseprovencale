@@ -1,14 +1,21 @@
 import { NavBar } from "./components/Navbar";
 import { LanguageProvider } from "./components/LanguageContext";
 import { HomePage } from "./pages/homepage/Homepage";
+import { TheVilla } from "./pages/the_villa/TheVilla";
 import "./constants/constants.css";
-// import NavMain from "./nav-main";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import Router components
 
 function App() {
   return (
     <LanguageProvider>
-      <NavBar />
-      <HomePage />
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/thevilla" element={<TheVilla />} />
+          {/* Add more routes for other pages */}
+        </Routes>
+      </Router>
     </LanguageProvider>
   );
 }
