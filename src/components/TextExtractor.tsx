@@ -27,7 +27,16 @@ function GetText({ folder, page, section, field }: TextExtractorProps) {
     fetchText();
   }, [folder, page, section, field]);
 
-  return <>{text}</>;
+  return (
+    <>
+      {text?.split("\n").map((line, index) => (
+        <span key={index}>
+          {line}
+          {index < text.split("\n").length - 1 && <br />}
+        </span>
+      ))}
+    </>
+  );
 }
 
 export default GetText;

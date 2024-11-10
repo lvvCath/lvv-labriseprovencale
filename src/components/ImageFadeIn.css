@@ -1,0 +1,13 @@
+/* Initial hidden state */
+.fade-in-image {
+    opacity: 0;
+    transform: translateY(20px); /* Start slightly below */
+    transition: opacity 3s ease-out, transform 3s ease-out;
+}
+
+/* Fade-in effect when scrolled into view */
+.fade-in-image.visible {
+    opacity: 1;
+    transform: translateY(0); /* Move to original position */
+}
+  

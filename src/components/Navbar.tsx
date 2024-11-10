@@ -39,7 +39,11 @@ export function NavBar() {
         <Navbar.Brand
           as={Link}
           to="/"
-          className={isScrolled ? "header-text-dark" : "header-text-light"}
+          className={
+            isScrolled
+              ? "nav-header-text header-text-dark"
+              : "nav-header-text header-text-light"
+          }
           onClick={handleBrandClick}
         >
           La brise Provençale
@@ -69,7 +73,9 @@ export function NavBar() {
                   to={path}
                   key={name}
                   className={`underline-effect ${
-                    isScrolled ? "body-text-dark" : "body-text-light"
+                    isScrolled
+                      ? "nav-body-text body-text-dark"
+                      : "nav-body-text body-text-light"
                   } ${activeLink === name ? "active" : ""}`}
                   onClick={() => handleLinkClick(name)}
                 >

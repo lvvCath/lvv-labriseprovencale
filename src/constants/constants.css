@@ -31,7 +31,9 @@
   --text-font-family: 'Poppins', sans-serif;
 
    /* Responsive Font Sizes adjusts with viewport */
-   --header-font-size: clamp(1rem, 2vw + 1rem, 2rem);
+   --h1-font-size: clamp(3rem, 2vw + 1rem, 4rem);
+   --h2-font-size: clamp(2rem, 2vw + 1rem, 3rem);
+   --h3-font-size: clamp(1rem, 2vw + 1rem, 2rem);
    --text-font-size: clamp(0.5rem, 1.5vw + 0.5rem, 0.9rem);
 
   /* Global Spacing */
@@ -43,26 +45,22 @@
 .header-text-dark {
   color: var(--header-text-color-dark) !important;
   font-family: var(--header-font-family);
-  font-size: var(--header-font-size) !important;
 }
 
 /* Header Light Text Style */
 .header-text-light {
   color: var(--header-text-color-light) !important;
   font-family: var(--header-font-family);
-  font-size: var(--header-font-size) !important;
 }
 
 /* Normal Text Dark Style */
 .body-text-dark {
   color: var(--text-color-dark) !important;
   font-family: var(--text-font-family);
-  font-size: var(--text-font-size) !important;
 }
 
   /* Normal Text Light Style */
 .body-text-light {
   color: var(--text-color-light) !important;
   font-family: var(--text-font-family);
-  font-size: var(--text-font-size) !important;
 }

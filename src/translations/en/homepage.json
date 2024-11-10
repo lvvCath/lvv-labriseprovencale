@@ -1,11 +1,10 @@
 {
-    "section1": {
-      "title": "Welcome to Our Homepage",
-      "content": "This is the first section of our homepage."
-    },
-    "section2": {
-      "title": "About Us",
-      "content": "We are a company that values..."
-    }
+  "section1": {
+    "title": "Elegance and Serenity in the\nHeart of Provence",
+    "content": "Welcome to our exquisite 450m² Provençal villa, a masterpiece of neo-Provencal design. Nestled within a spacious 4500m² garden surrounded by trees, the villa offers a serene and private retreat that immerses you in nature. This luxurious property provides stunning views of the mirror infinity pool and seamlessly blends indoor and outdoor spaces for a sophisticated and modern lifestyle.\n\nJoin us and discover the ultimate Provencal escape."
+  },
+  "section2": {
+    "title": "About Us",
+    "content": "We are a company that values..."
   }
-  
+}

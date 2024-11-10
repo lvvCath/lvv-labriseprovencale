@@ -1,0 +1,81 @@
+/* General Styles */
+.section1-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh; /* Use min-height to allow it to grow if needed */
+  background-color: var(--palette-1);
+  padding: var(--global-padding-horizontal);
+  overflow: hidden;
+}
+
+.body-container {
+  padding: 3rem;
+  background-color: var(--palette-2);
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  height: auto;
+  overflow: visible;
+  box-shadow: 0 4px 20px 5px rgba(0.1, 0.1, 0, 0.1)
+}
+
+.header-text-dark {
+  font-size: var(--h1-font-size);
+  padding-bottom: 1rem;
+}
+
+.body-text-dark {
+  font-size: var(--text-font-size);
+}
+
+.content-container {
+  padding-right: 10rem !important;
+  padding-left: 10rem !important;
+  text-align: center;
+}
+
+.portrait-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100%; /* Allow height to adapt to the content */
+}
+
+.portrait-image {
+  width: 85%; /* Match the width of the column */
+  height: auto;
+  max-height: none; /* Allows full height for the image */
+  object-fit: cover;
+  position: absolute; /* Position it to allow overflow */
+  top: 0; /* Align to the top of the container */
+  left: 0; /* Align to the left */
+  z-index: 0;
+  transform: translateY(-50%) !important; /* Adjust to control overflow amount */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 968px) {
+  .section1-container {
+    min-height: auto; /* Remove height constraint on smaller screens */
+    padding: 2rem 1rem !important; /* Add padding for better readability on small screens */
+  }
+
+  .content-container {
+    padding-right: 1rem !important; /* Reduce padding for smaller screens */
+    padding-left: 1rem !important;
+  }
+
+  .portrait-container {
+    position: static; /* Reset position to avoid overflow issues */
+    margin-top: 2rem; /* Add spacing between the image and text */
+  }
+
+  .portrait-image {
+    position: relative; /* Adjust position so it stays within its column */
+    width: 100%; /* Make the image full-width within the column */
+    transform: none !important; /* Remove the transform for better alignment */
+  }
+}

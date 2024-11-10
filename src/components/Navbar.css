@@ -15,7 +15,7 @@
     background-color: rgba(233, 226, 217, 0.9) !important;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px); /* For Safari support */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 17px 0px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
 }
 
@@ -24,20 +24,12 @@
     padding: 0 !important;
 }
 
-.header-text-light {
-    
+.nav-header-text {
+    font-size: var(--h3-font-size) !important;
 }
 
-.header-text-dark {
-    
-}
-
-.body-text-light {
-
-}
-
-.body-text-dark {
-
+.nav-body-text {
+    font-size: var(--text-font-size) !important;
 }
 
 .language-buttons {
