@@ -30,5 +30,49 @@
   "section2x2x3": {
     "title": "Infinity Pool",
     "content": "At the heart of the property lies a magnificent 15x5m mirror infinity pool, epitomizing luxury and elegance. This stunning pool features a shallow area only 45cm deep, ideal for children to safely enjoy the water. The pool also boasts a beautiful fountain, adding to the serene ambiance. The water cascades seamlessly over all sides of the pool, creating a mesmerizing visual effect and a sense of boundless tranquility."
+  },
+  "section3": {
+    "title": "Explore La brise Provençale",
+    "content": ""
+  },
+  "section4": {
+    "title": "Services",
+    "content": "see more"
+  },
+  "section4x1": {
+    "title": "Villa Rental",
+    "content": "Experience unparalleled luxury with the exclusive rental of our entire villa, offering privacy, comfort, and breathtaking views for an unforgettable stay."
+  },
+  "section4x2": {
+    "title": "Guest Suite",
+    "content": "Experience the ultimate getaway in our spacious guest house, featuring multiple rooms designed for comfort and togetherness. Perfect for creating unforgettable memories with your loved ones."
+  },
+  "section4x3": {
+    "title": "Location",
+    "content": "Nestled in the heart of Provence, our prime location offers the perfect blend of countryside charm and seaside relaxation, providing a diverse range of activities and experiences just minutes away from picturesque lakes and the Mediterranean Sea."
+  },
+  "section5": {
+    "title": "Hear from our Happy Guests",
+    "content": ""
+  },
+  "section5x1": {
+    "title": "Natalia",
+    "content": "Great stay in this beautiful house! The place is very well designed and designed to have a great time with friends and family. I recommend it without hesitating!",
+    "logo": "airbnb"
+  },
+  "section5x2": {
+    "title": "Arthur",
+    "content": "I rented this house for a weekend and was very satisfied with it. Contact with Qianqian is easy and the home is as beautiful as the photos suggest.",
+    "logo": "airbnb"
+  },
+  "section5x3": {
+    "title": "Audrey",
+    "content": "Beautiful and comfortable room, well-equipped and clean apartment. The outdoor area and the pool are a marvel. Warm and friendly welcome with attentive service. Hosts are understanding and flexible with scheduling.",
+    "logo": "booking"
+  },
+  "section5x4": {
+    "title": "Eric",
+    "content": "A great place to spend a few days with friends. The room is in a beautiful, tranquil property with impeccable cleanliness and excellent amenities. The pool is stunning. The owners are welcoming and helpful.\nIn short, everything is perfect!",
+    "logo": "booking"
   }
 }

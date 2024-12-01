@@ -65,7 +65,7 @@ function Section2() {
           </div>
         </Col>
         <Col xs={12} md={6} className="text-column">
-          <h1 className="header-text-dark ">
+          <h1 className="header-text-dark section2-title">
             <GetText
               folder={language}
               page="homepage"
@@ -73,7 +73,7 @@ function Section2() {
               field="title"
             />
           </h1>
-          <p className="body-text-dark">
+          <p className="body-text-dark section2-txtcontent">
             <GetText
               folder={language}
               page="homepage"
@@ -104,7 +104,7 @@ function Section2() {
       {/* Row 2 */}
       <Row className="align-items-center half-viewport">
         <Col xs={12} md={6} className="text-column">
-          <h1 className="header-text-dark">
+          <h1 className="header-text-dark section2-title">
             <GetText
               folder={language}
               page="homepage"
@@ -112,7 +112,7 @@ function Section2() {
               field="title"
             />
           </h1>
-          <p className="body-text-dark">
+          <p className="body-text-dark section2-txtcontent">
             <GetText
               folder={language}
               page="homepage"

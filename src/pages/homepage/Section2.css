@@ -114,12 +114,12 @@
   text-align: center;
 }
 
-.header-text-dark {
+.section2-title {
   font-size: var(--h1-font-size);
   padding-bottom: 1rem;
 }
 
-.body-text-dark {
+.section2-txtcontent {
   font-size: var(--text-font-size);
 }
 

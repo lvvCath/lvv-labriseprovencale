@@ -12,7 +12,7 @@ function Section1() {
     <Container fluid className="section1-container">
       <Row className="body-container align-items-center">
         <Col md={8} lg={8} className="content-container">
-          <h1 className="header-text-dark">
+          <h1 className="header-text-dark section1-title">
             <GetText
               folder={language}
               page="homepage"
@@ -20,7 +20,7 @@ function Section1() {
               field="title"
             />
           </h1>
-          <p className="body-text-dark">
+          <p className="body-text-dark section1-txtcontent">
             <GetText
               folder={language}
               page="homepage"

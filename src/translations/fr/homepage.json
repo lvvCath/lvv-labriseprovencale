@@ -3,32 +3,76 @@
     "title": "Élégance et Sérénité au\nCœur de la Provence",
     "content": "Bienvenue dans notre magnifique villa provençale de 450m², un chef-d'œuvre de design néo-provençal. Nichée dans un vaste jardin de 4500m² entouré d’arbres, la villa offre un refuge serein et privé qui vous plonge dans la nature. Cette propriété luxueuse propose des vues imprenables sur la piscine à débordement miroir et intègre parfaitement les espaces intérieurs et extérieurs pour un style de vie moderne et raffiné.\n\nRejoignez-nous et découvrez l'escapade provençale ultime."
   },
-  "section2.1-1": {
+  "section2x1x1": {
     "title": "Intérieur",
     "content": "Conçue pour offrir à la fois intimité et connectivité, la disposition de la villa relie deux ailes indépendantes, créant des espaces séparés mais connectés. Les intérieurs sont lumineux et aérés, avec un design à plan ouvert qui favorise un sentiment d'espace et de fluidité.\nCette propriété exceptionnelle peut accueillir jusqu'à 10 adultes et 3 enfants."
   },
-  "section2.1-2": {
+  "section2x1x2": {
     "title": "Chambres",
     "content": "Répartie sur deux niveaux, la villa dispose de six chambres magnifiquement aménagées, dont cinq avec leur propre salle de bain attenante. Cinq de ces chambres sont des chambres climatisées avec lit king-size, et l'une d'elles comprend une chambre attenante pour enfants, offrant un refuge parfait pour les familles ou les groupes d'amis."
   },
-  "section2.1-3": {
+  "section2x1x3": {
     "title": "Suite Premium",
     "content": "La suite premium au deuxième étage est particulièrement remarquable, avec des matériaux de haute qualité, une cloison entièrement vitrée qui inonde l'espace de lumière naturelle, une luxueuse baignoire îlot, et une douche à l'italienne effet pluie. De plus, une chambre est équipée de pièces attenantes pour enfants, pouvant accueillir 2 à 3 enfants, garantissant un espace et un confort suffisants pour tous les invités."
   },
-  "section2.1-4": {
+  "section2x1x4": {
     "title": "Activités Intérieures",
     "content": "L'espace souterrain de la villa est dédié au divertissement, avec un cinéma privé et une salle de jeux, conçue pour ravir les invités de tous âges. Cet espace dynamique est équipé d'une table de billard, de fléchettes, de jeux d'arcade, de baby-foot, de hockey sur air, de puzzles, ainsi que d'une sélection de jouets et de jeux de société."
   },
-  "section2.2-1": {
+  "section2x2x1": {
     "title": "Extérieur",
     "content": "À l'extérieur, les enfants peuvent s'amuser avec une gamme d'activités conçues pour les divertir et les garder actifs. Le vaste jardin est équipé de jeux en plein air et d'aires de jeux, garantissant aux jeunes invités de profiter d'un plaisir et d'une aventure sans fin pendant leur séjour."
   },
-  "section2.2-2": {
+  "section2x2x2": {
     "title": "Spa et Sauna",
     "content": "Pour ceux qui recherchent détente et bien-être, la villa dispose d’un spa et d’un sauna luxueux. Ces installations offrent une escapade paisible, vous permettant de vous relaxer et de profiter d’un sanctuaire de tranquillité au cœur de votre maison de vacances."
   },
-  "section2.2-3": {
+  "section2x2x3": {
     "title": "Piscine à Débordement",
     "content": "Au cœur de la propriété se trouve une superbe piscine à débordement miroir de 15x5m, incarnant luxe et élégance. Avec une zone peu profonde de 45 cm idéale pour les enfants, et une belle fontaine, elle offre une ambiance sereine. L'eau se déverse sur tous les côtés, créant un effet visuel envoûtant et une sensation de tranquillité infinie."
+  },
+  "section3": {
+    "title": "Explorez La brise Provençale",
+    "content": ""
+  },
+  "section4": {
+    "title": "Services",
+    "content": "Voir plus"
+  },
+  "section4x1": {
+    "title": "Location de Villa",
+    "content": "Découvrez un luxe inégalé avec la location exclusive de notre villa entière, offrant intimité, confort et vues imprenables pour un séjour inoubliable."
+  },
+  "section4x2": {
+    "title": "Maison d'Hôtes",
+    "content": "Vivez l'ultime escapade dans notre spacieuse maison d'hôtes, comprenant plusieurs chambres conçues pour le confort et la convivialité. Idéale pour créer des souvenirs inoubliables avec vos proches."
+  },
+  "section4x3": {
+    "title": "Emplacement",
+    "content": "Nichée au cœur de la Provence, notre situation privilégiée offre le parfait mélange de charme campagnard et de détente en bord de mer, avec une gamme variée d'activités et d'expériences à quelques minutes des lacs pittoresques et de la Méditerranée."
+  },
+  "section5": {
+    "title": "Témoignages de Nos Clients Heureux",
+    "content": ""
+  },
+  "section5x1": {
+    "title": "Natalia",
+    "content": "Un excellent séjour dans cette belle maison ! L'endroit est très bien conçu pour passer un excellent moment avec des amis et en famille. Je le recommande sans hésiter !",
+    "logo": "airbnb"
+  },
+  "section5x2": {
+    "title": "Arthur",
+    "content": "J'ai loué cette maison pour un week-end et j'en suis très satisfait. Le contact avec Qianqian est facile et la maison est aussi belle que les photos le suggèrent.",
+    "logo": "airbnb"
+  },
+  "section5x3": {
+    "title": "Audrey",
+    "content": "Chambre belle et confortable, appartement bien équipé et propre. L'espace extérieur et la piscine sont merveilleux. Accueil chaleureux et amical avec un service attentif. Les hôtes sont compréhensifs et flexibles avec les horaires.",
+    "logo": "booking"
+  },
+  "section5x4": {
+    "title": "Eric",
+    "content": "Une belle adresse pour passer quelques jours entre amis. Chambre dans une très belle propriété située au calme. Propreté irréprochable. Très bien équipée. Très belle piscine. Les propriétaires sont accueillants et serviables. Bref, tout est parfait !",
+    "logo": "booking"
   }
 }

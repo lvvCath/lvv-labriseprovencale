@@ -1,12 +1,10 @@
-/* General Styles */
 .section1-container {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 100vh; /* Use min-height to allow it to grow if needed */
+  min-height: 100vh;
   background-color: var(--palette-1);
-  padding: var(--global-padding-horizontal);
   overflow: hidden;
 }
 
@@ -21,12 +19,12 @@
   box-shadow: 0 4px 20px 5px rgba(0.1, 0.1, 0, 0.1)
 }
 
-.header-text-dark {
+.section1-title {
   font-size: var(--h1-font-size);
   padding-bottom: 1rem;
 }
 
-.body-text-dark {
+.section1-txtcontent {
   font-size: var(--text-font-size);
 }
 
@@ -41,19 +39,19 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 100%; /* Allow height to adapt to the content */
+  height: 100%;
 }
 
 .portrait-image {
-  width: 85%; /* Match the width of the column */
+  width: 85%;
   height: auto;
-  max-height: none; /* Allows full height for the image */
+  max-height: none;
   object-fit: cover;
-  position: absolute; /* Position it to allow overflow */
-  top: 0; /* Align to the top of the container */
-  left: 0; /* Align to the left */
+  position: absolute;
+  top: 0;
+  left: 0;
   z-index: 0;
-  transform: translateY(-50%) !important; /* Adjust to control overflow amount */
+  transform: translateY(-50%) !important;
 }
 
 /* Responsive Adjustments */
