@@ -1,23 +1,22 @@
 .thevilla-s0 {
     display: flex;
+    --bs-gutter-x: 0 !important;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-    position: relative;
     background-color: #FEFEF6;
 
     .img-container {
         width: 100%;
-        height: 65%;
+        height: 65vh;
         background-size: cover;
         background-position: center;
-        position: absolute;
         display: flex;
         justify-content: center;
-        align-items: flex-end;
+        align-items: center;
         top: 0;
         z-index: 1;
         box-shadow: 0 4px 20px 5px rgba(0.1, 0.1, 0, 0.1);
@@ -25,10 +24,9 @@
     }
 
     .title-container {
-        width: 80%;
-        max-width: 50%;
+        width: 60%;
         position: absolute;
-        bottom: -65px;
+        top: 50vh;
         background: rgba(72, 64, 57, 0.88);
         padding: 1.5rem;
         border-radius: 0.2rem 8rem;
@@ -46,7 +44,7 @@
     .subcontent {
         width: 65%;
         text-align: center;
-        margin: 1rem auto;
+        margin-top: 2%;
         padding-top: 6rem;
         /* Ensure it does not overlap */
         z-index: 2;
@@ -60,24 +58,22 @@
     }
 }
 
-@media (max-width: 868px) {
+@media (max-width: 1024px) {
     .thevilla-s0 {
         .img-container {
-            height: 60%;
+            height: 70vh;
             /* Adjust image height for smaller screens */
         }
 
         .title-container {
-            width: 95%;
-            padding: 1rem;
-            bottom: -45px;
-            border-radius: 0.2rem 4rem;
+            width: 80%;
+            padding: 2rem;
+            border-radius: 0.2rem 6rem;
             /* Move closer to avoid overlap */
         }
 
         .subcontent {
-            width: 95%;
-            padding-top: 7rem;
+            padding-top: 5rem;
             /* Add more space for smaller screens */
             margin: 2rem auto;
         }
@@ -93,15 +89,13 @@
 @media (max-width: 480px) {
     .thevilla-s0 {
         .title-container {
-            width: 95%;
-            bottom: -30px;
+            width: 80%;
             padding: 0.8rem;
             border-radius: 0.2rem 5rem;
         }
 
         .subcontent {
-            max-width: 90%;
-            padding-top: 8rem;
+            padding-top: 5rem;
             margin: 1.5rem auto;
         }
 
