@@ -1,0 +1,20 @@
+{
+  "en": {
+    "lang": "Languages",
+    "en": "English",
+    "fr": "French",
+    "zh": "Chinese"
+  },
+  "fr": {
+    "lang": "Langues",
+    "en": "Anglais",
+    "fr": "Français",
+    "zh": "Chinois"
+  },
+  "zh": {
+    "lang": "语言",
+    "en": "英语",
+    "fr": "法语",
+    "zh": "中文"
+  }
+}

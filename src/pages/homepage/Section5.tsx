@@ -9,10 +9,10 @@ import airbnb from "../../assets/icon/airbnb.png";
 import booking from "../../assets/icon/booking.png";
 import arrowLeft from "../../assets/icon/arrow-left.svg";
 import arrowRight from "../../assets/icon/arrow-right.svg";
-import section5x1 from "../../assets/images/homepage/section2x1x1.jpeg";
-import section5x2 from "../../assets/images/homepage/section2x1x2.jpeg";
-import section5x3 from "../../assets/images/homepage/section2x1x3.jpeg";
-import section5x4 from "../../assets/images/homepage/section2x1x4.jpeg";
+import section5x1 from "../../assets/images/homepage/section5x1.jpg";
+import section5x2 from "../../assets/images/homepage/section5x2.jpg";
+import section5x3 from "../../assets/images/homepage/section5x3.jpg";
+import section5x4 from "../../assets/images/homepage/section5x4.jpg";
 
 function Section5() {
   const { language } = useLanguage();

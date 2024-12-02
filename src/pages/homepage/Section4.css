@@ -17,20 +17,20 @@
 /* Divider */
 .s4-title-divider,
 .s4-end-divider {
-  display: flex;
-  align-items: center;
-  margin: 2rem 0;
-  width: 90%;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    width: 90%;
+    justify-content: center;
 }
 
 .line-with-diamond {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  height: 0.1rem;
-  background-color: var(--palette-5);
-  position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 0.1rem;
+    background-color: var(--palette-5);
+    position: relative;
 }
 
 .line-with-diamond::before,
@@ -73,37 +73,37 @@
     position: relative;
     background: transparent;
     border: 0.7rem solid transparent;
-    box-shadow: 0 0 0 3px var(--palette-5); 
+    box-shadow: 0 0 0 3px var(--palette-5);
     border-radius: 0.7rem;
     overflow: hidden;
 }
 
 .s4-image-container::before,
 .s4-image-container::after {
-  background-color: rgba(214, 207, 198, 0.55);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  content: '';
-  transition: all 0.5s ease-out;
-  z-index: 1;
-  opacity: 0;
-  transform: scaleY(2);
+    background-color: rgba(214, 207, 198, 0.55);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    transition: all 0.5s ease-out;
+    z-index: 1;
+    opacity: 0;
+    transform: scaleY(2);
 }
 
 .s4-image-container:hover::before,
 .s4-image-container:hover::after {
-  opacity: 1;
+    opacity: 1;
 }
 
 .s4-image {
     width: 100%;
-	height: 100%;
-	margin-bottom: -5px;
-	transition: all 0.5s ease-out;
-	position: relative;
+    height: 100%;
+    margin-bottom: -5px;
+    transition: all 0.5s ease-out;
+    position: relative;
     object-fit: cover;
 }
 
@@ -128,7 +128,7 @@
     transition-delay: 0.1s;
 }
 
-.s4-image-container:hover .s4-overlay{
+.s4-image-container:hover .s4-overlay {
     opacity: 1;
 }
 
@@ -146,26 +146,29 @@
 /* Responsive Adjustments for Smaller Screens */
 @media (max-width: 768px) {
     .s4-title {
-        font-size: var(--h1-font-size); /* Adjust for smaller screens */
+        font-size: var(--h1-font-size);
+        /* Adjust for smaller screens */
         padding: 0rem 3rem 0rem 3rem;
     }
 
     .s4-col-container {
         padding: 0rem 2rem 0rem 2rem;
     }
-    
+
     .body4-container {
         padding: 0rem 2rem;
     }
 
     .s4-image-container {
-        max-width: 100%; /* Ensure images scale on smaller screens */
+        max-width: 100%;
+        /* Ensure images scale on smaller screens */
     }
 }
 
 @media (max-width: 480px) {
     .s4-title {
-        font-size: var(--h2-font-size); /* Further reduce title font size */
+        font-size: var(--h2-font-size);
+        /* Further reduce title font size */
         padding: 0rem 2rem 0rem 2rem;
     }
 
@@ -174,10 +177,12 @@
     }
 
     .body4-container {
-        padding: 0rem 1rem; /* Less padding for tighter layout */
+        padding: 0rem 1rem;
+        /* Less padding for tighter layout */
     }
 
     .s4-image-container {
-        max-width: 90%; /* Allow more flexibility with image scaling */
+        max-width: 90%;
+        /* Allow more flexibility with image scaling */
     }
 }

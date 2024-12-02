@@ -7,15 +7,17 @@
     min-height: 100vh;
     overflow: hidden;
     position: relative;
-    padding: 2rem; /* Add padding for smaller screens */
+    padding: 2rem;
+    /* Add padding for smaller screens */
 }
-  
+
 .s5-title {
     font-size: var(--h0-font-size);
     padding-bottom: 1rem;
-    text-align: center; /* Center title for better responsiveness */
+    text-align: center;
+    /* Center title for better responsiveness */
 }
-  
+
 .body5-container {
     width: 100%;
     height: 50%;
@@ -27,20 +29,20 @@
     box-shadow: 0 4px 20px 5px rgba(0.1, 0.1, 0, 0.1);
     background-color: var(--palette-2);
 }
-  
+
 .reviews-container {
-    width: 90%; /* Default for smaller screens */
-    max-width: 40%; /* Set max-width for larger screens */
+    width: 90%;
+    max-width: 40%;
     min-height: 70%;
     z-index: 2;
     margin: 4rem 0;
     background-color: white;
     box-shadow: 0 4px 20px 5px rgba(0.1, 0.1, 0, 0.1);
-    padding: 2rem; /* Adjust padding for smaller screens */
+    padding: 2rem;
     border-radius: 1rem;
     text-align: center;
 }
-  
+
 .reviews-container::before,
 .reviews-container::after {
     content: "";
@@ -51,26 +53,28 @@
     height: 5rem;
     z-index: 1;
 }
-  
+
 .reviews-container::before {
     background-image: url('../../assets/icon/quotation-mark-left.png');
     top: -2rem;
     left: -3rem;
 }
-  
+
 .reviews-container::after {
     background-image: url('../../assets/icon/quotation-mark-right.png');
     bottom: -2rem;
     right: -3rem;
 }
-  
+
 .circle-image {
     position: absolute;
     bottom: -50px;
     left: 50%;
     transform: translateX(-50%);
-    width: 80px; /* Adjust for smaller screens */
-    height: 80px; /* Adjust for smaller screens */
+    width: 80px;
+    /* Adjust for smaller screens */
+    height: 80px;
+    /* Adjust for smaller screens */
     border-radius: 50%;
     z-index: 3;
     background-color: var(--palette-2);
@@ -78,16 +82,18 @@
     overflow: hidden;
     border: 0.3rem solid var(--palette-5);
 }
-  
+
 .circle-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-  
+
 .label5-container {
-    width: 90%; /* Default for smaller screens */
-    max-width: 65%; /* Set max-width for larger screens */
+    width: 90%;
+    /* Default for smaller screens */
+    max-width: 65%;
+    /* Set max-width for larger screens */
     text-align: center;
     margin: 1rem auto;
     z-index: 2;
@@ -103,51 +109,44 @@
     padding-top: 1rem;
 }
 
-.s5-txtcontent {
-    font-size: var(--text-font-size);
-}
-
 .review-logo {
     max-width: 150px;
-    max-height: 50px; 
-    width: auto; 
-    height: auto; 
-    object-fit: contain; 
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
 }
 
-  
-  /* Responsive adjustments */
-@media (min-width: 480px) {
+
+/* Responsive adjustments */
+
+@media (max-width: 576px) {
+    .s5-title {
+        font-size: var(--h1-font-size);
+    }
+}
+
+@media (min-width: 576px) {
     .reviews-container {
         padding: 2.5rem;
-    }   
-  
+    }
+
     .circle-image {
         width: 100px;
         height: 100px;
     }
-  
+
     .label5-container {
         width: 70%;
     }
-
-    .s5-title {
-        font-size: var(--h2-font-size);
-    }
 }
-  
+
 @media (min-width: 768px) {
     .reviews-container {
         padding: 4rem;
     }
-  
+
     .label5-container {
         width: 65%;
     }
-
-    .s5-title {
-        font-size: var(--h1-font-size);
-    }
-
 }
-  

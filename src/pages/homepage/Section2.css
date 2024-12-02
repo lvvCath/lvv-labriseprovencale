@@ -7,32 +7,36 @@
 
 .image-column {
   display: flex;
-  justify-content: center;  /* Centers the image horizontally */
-  align-items: center;      /* Centers the image vertically */
-  height: 100%; 
+  justify-content: center;
+  /* Centers the image horizontally */
+  align-items: center;
+  /* Centers the image vertically */
+  height: 100%;
   position: relative;
 }
 
 .image1-bg {
   position: relative;
   display: flex;
-  justify-content: center;  /* Centers the image horizontally */
-  align-items: center;      /* Centers the image vertically */
+  justify-content: center;
+  /* Centers the image horizontally */
+  align-items: center;
+  /* Centers the image vertically */
   height: 100%;
   width: 100%;
 }
 
 .section-image1 {
   display: block;
-  width: calc(100% - 25%); 
-  height: calc(100% - 15%); 
+  width: calc(100% - 25%);
+  height: calc(100% - 15%);
   object-fit: cover;
   border-bottom-right-radius: 30%;
-  position: relative;  
-  top: 0;  
-  left: 0; 
-  margin-top: 8%; 
-  margin-left: 10%; 
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: 8%;
+  margin-left: 10%;
   z-index: 2;
   aspect-ratio: 5 / 3.2;
 }
@@ -45,25 +49,27 @@
   top: 0;
   left: 10%;
   width: calc(100% - 25%);
-  height: 15%; 
+  height: 15%;
 }
 
 .image1-bg:after {
   content: "";
   position: absolute;
-  z-index: 1; 
+  z-index: 1;
   background-color: var(--palette-5);
   top: 0;
   left: 10%;
-  width: 10%; 
-  height: calc(100% - 15%); 
+  width: 10%;
+  height: calc(100% - 15%);
 }
 
 .image2-bg {
   position: relative;
   display: flex;
-  justify-content: center;  /* Centers the image horizontally */
-  align-items: center;      /* Centers the image vertically */
+  justify-content: center;
+  /* Centers the image horizontally */
+  align-items: center;
+  /* Centers the image vertically */
   height: 100%;
   width: 100%;
   margin-bottom: 10%;
@@ -71,39 +77,39 @@
 
 .section-image2 {
   display: block;
-  width: calc(100% - 25%);  
-  height: calc(100% - 15%); 
+  width: calc(100% - 25%);
+  height: calc(100% - 15%);
   object-fit: cover;
   border-top-left-radius: 30%;
-  position: relative; 
-  top: 0; 
-  left: 0; 
-  margin-top: 0; 
-  margin-left: 0; 
-  z-index: 2; 
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: 2;
   aspect-ratio: 5 / 3.2;
 }
 
 .image2-bg:before {
   content: "";
   position: absolute;
-  z-index: 1; 
+  z-index: 1;
   background-color: var(--palette-5);
   bottom: -15%;
   right: 5%;
-  width: calc(100% - 26%); 
+  width: calc(100% - 26%);
   height: 25%;
 }
 
 .image2-bg:after {
   content: "";
   position: absolute;
-  z-index: 1; 
+  z-index: 1;
   background-color: var(--palette-5);
   bottom: -15%;
   right: 5%;
-  width: 20%; 
-  height: calc(100% - 5%); 
+  width: 20%;
+  height: calc(100% - 5%);
 }
 
 .text-column {
@@ -135,11 +141,13 @@
   border: none;
   color: var(--palette-4);
   cursor: pointer;
-  margin: 0 1rem; /* Add space between the arrows and divider */
+  margin: 0 1rem;
+  /* Add space between the arrows and divider */
 }
 
 .divider-image {
-  margin: 0 2rem; /* Increase space around the divider */
+  margin: 0 2rem;
+  /* Increase space around the divider */
   width: 6rem;
   height: auto;
 }

@@ -4,14 +4,13 @@
   align-items: center;
   justify-content: flex-end;
   width: 100%;
-  max-height: 100vh;
   overflow: hidden;
   position: relative;
 }
-  
+
 .body3-container {
   width: 100%;
-  height: 70%;
+  height: 65%;
   background-image: url("../../assets/images/homepage/section3.jpeg");
   background-size: cover;
   background-position: center;
@@ -31,12 +30,12 @@
   bottom: 0;
   z-index: 1;
 }
-  
+
 .video3-container {
   width: 65%;
   z-index: 2;
-  margin-bottom: 1rem; /* Ensure space between video and title */
-  margin-top: 5rem; /* Ensure space between video and title */
+  margin-bottom: 2%;
+  margin-top: 9%;
 }
 
 .video3-container video {
@@ -46,15 +45,15 @@
 .title3-container {
   width: 65%;
   text-align: center;
-  margin-top: 0; /* No top margin to prevent centering */
+  margin-top: 0;
   z-index: 2;
   background-color: var(--palette-2);
   border-radius: 2rem;
-  margin-bottom: 1% !important;
+  margin-bottom: 2% !important;
 }
 
 .section3-title {
-  font-size: var(--h2-font-size);
+  font-size: var(--h3-font-size);
   padding: 0.3em 0.3em 0.1em 0.3em;
   margin-block-end: 0em;
   margin-block-start: 0em;
