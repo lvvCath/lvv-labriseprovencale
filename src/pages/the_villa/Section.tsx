@@ -1,7 +1,7 @@
 import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
 
-function Section1() {
+function Section() {
   const { language } = useLanguage();
 
   return (
@@ -26,4 +26,4 @@ function Section1() {
   );
 }
 
-export default Section1;
+export default Section;

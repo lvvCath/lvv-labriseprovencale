@@ -9,7 +9,7 @@
     overflow: hidden;
     background-color: #FEFEF6;
 
-    .img-container {
+    .s0-img-container {
         width: 100%;
         height: 65vh;
         background-size: cover;
@@ -20,7 +20,14 @@
         top: 0;
         z-index: 1;
         box-shadow: 0 4px 20px 5px rgba(0.1, 0.1, 0, 0.1);
+    }
+
+    .s0-thevilla {
         background-image: url('../../assets/images/thevilla/section0.jpeg');
+    }
+
+    .s0-guesthouse {
+        background-image: url('../../assets/images/guesthouse/section0.jpeg');
     }
 
     .title-container {

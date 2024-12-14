@@ -1,11 +1,13 @@
-import Section1 from "./Section1";
-// import Section0 from "./Section0";
+import Section0 from "../the_villa/Section0";
+import Section1 from "../the_villa/Section1";
+import Footer from "../../components/Footer";
 
 export function GuestHouse() {
   return (
     <div>
-      {/* <Section0 /> */}
-      <Section1 />
+      <Section0 page={"guesthouse"} />
+      <Section1 page={"guesthouse"} />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,15 @@
+{
+  "section0": {
+    "title": "Suite d'invités",
+    "content": "Vivez une escapade ultime dans notre spacieuse maison d'invités, offrant plusieurs chambres conçues pour le confort et la convivialité. Idéale pour créer des souvenirs inoubliables avec vos proches.",
+    "subcontent": "Optez pour notre hébergement dans la maison d'invités pour profiter d'un séjour sophistiqué et privé au sein de notre villa. En réservant la maison d'invités, vous aurez accès à l'aile gauche de la propriété, conçue pour offrir une expérience de vie luxueuse et indépendante tout en maintenant une séparation claire avec les quartiers privés des hôtes."
+  },
+  "section1": {
+    "title": "Suite d'invités",
+    "villasize": "Aile Gauche de la Villa",
+    "bedroom": "Chambres : 4",
+    "bathroom": "Salles de Bain : 4",
+    "wifi": "Wifi Gratuit",
+    "capacity": "8 adultes, 2 par chambre"
+  }
+}

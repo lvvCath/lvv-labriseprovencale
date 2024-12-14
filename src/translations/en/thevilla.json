@@ -3,5 +3,21 @@
     "title": "The Villa",
     "content": "Experience unparalleled luxury with the exclusive rental of our entire villa, offering privacy, comfort, and breathtaking views for an unforgettable stay.",
     "subcontent": "Choose to book the entire property and immerse yourself in the splendor of our Provençal villa, a true masterpiece of neo-Provencal design. The villa's layout seamlessly connects two independent wings, allowing for both privacy and togetherness. This exceptional property accommodates up to 10 adults and 3 children, providing ample space for everyone to enjoy."
+  },
+  "section1": {
+    "title": "Villa with Private Pool",
+    "villasize": "Villa Size: 450m²",
+    "bedroom": "Bedroom: 6",
+    "bathroom": "Bathroom: 6",
+    "wifi": "Free Wifi",
+    "capacity": "10 adults and 3 children"
+  },
+  "section2": {
+    "bedroom": "Villa with Private Pool",
+    "kidsroom": "Villa Size: 450m²",
+    "livingroom": "Bedroom: 6",
+    "workplace": "Bathroom: 6",
+    "kitchen": "Free Wifi",
+    "diningroom": "10 adults and 3 children"
   }
 }

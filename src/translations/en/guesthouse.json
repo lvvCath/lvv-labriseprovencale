@@ -1,0 +1,15 @@
+{
+  "section0": {
+    "title": "Guest Suite",
+    "content": "Experience the ultimate getaway in our spacious guest house, featuring multiple rooms designed for comfort and togetherness. Perfect for creating unforgettable memories with your loved ones.",
+    "subcontent": "Opt for our guest house accommodation to enjoy a sophisticated and private stay within our villa. When you book the guest house, you'll have access to the left wing of the property, designed to provide a luxurious and independent living experience while maintaining a clear separation from the host's private quarters."
+  },
+  "section1": {
+    "title": "Guest Suite",
+    "villasize": "Villa’s Left Wing",
+    "bedroom": "Bedroom: 4",
+    "bathroom": "Bathroom: 4",
+    "wifi": "Free Wifi",
+    "capacity": "8 adults, 2 per room"
+  }
+}

@@ -1,7 +1,15 @@
 {
   "section0": {
-    "title": "别墅",
-    "content": "通过独占我们整座别墅，体验无与伦比的奢华，享受隐私、舒适和令人叹为观止的美景，带来难忘的住宿体验。",
-    "subcontent": "选择预订整个物业，沉浸在我们普罗旺斯别墅的辉煌之中，这是一座真正的新普罗旺斯设计杰作。别墅的布局无缝连接两个独立的翼楼，既能提供隐私，又能满足亲密的需求。这座卓越的物业可容纳多达10位成人和3名儿童，为每个人提供充足的空间。"
+    "title": "The Villa",
+    "content": "Vivez un luxe inégalé avec la location exclusive de notre villa entière, offrant intimité, confort et vues à couper le souffle pour un séjour inoubliable.",
+    "subcontent": "Optez pour la réservation de l'ensemble de la propriété et plongez dans le splendeur de notre villa provençale, véritable chef-d'œuvre de design néo-provençal. La disposition de la villa relie harmonieusement deux ailes indépendantes, permettant à la fois intimité et convivialité. Cette propriété exceptionnelle peut accueillir jusqu'à 10 adultes et 3 enfants, offrant suffisamment d'espace pour que tout le monde puisse profiter pleinement."
+  },
+  "section1": {
+    "title": "Villa avec Piscine Privée",
+    "villasize": "Taille de la Villa : 450m²",
+    "bedroom": "Chambres : 6",
+    "bathroom": "Salles de Bain : 6",
+    "wifi": "Wifi Gratuit",
+    "capacity": "Capacité : 10 adultes et 3 enfants"
   }
 }

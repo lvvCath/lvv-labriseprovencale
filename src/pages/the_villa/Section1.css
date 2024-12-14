@@ -1,0 +1,39 @@
+.thevilla-s1 {
+    display: flex;
+    --bs-gutter-x: 0 !important;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    background-color: #FEFEF6;
+
+    .s1-img-container {
+        width: 100%;
+        height: 75vh;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        background-image: url('../../assets/images/thevilla/section1.jpeg');
+    }
+
+    .s1-body {
+        background: rgba(72, 64, 57, 0.48);
+        backdrop-filter: blur(2px);
+        position: absolute;
+        top: 0;
+        left: 70px;
+        padding: 2rem;
+        z-index: 2;
+    }
+
+    .s1-content {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .s1-icon {
+        margin-right: 0.5rem;
+    }
+
+}
