@@ -11,5 +11,14 @@
     "bathroom": "浴室：6间",
     "wifi": "免费Wifi",
     "capacity": "可容纳10位成人和3名儿童"
+  },
+  "section2": {
+    "title": "Premium Suite",
+    "bedroom": "Bedroom",
+    "kidsroom": "kidsroom",
+    "livingroom": "livingroom",
+    "workplace": "workplace",
+    "kitchen": "kitchen",
+    "diningroom": "diningroom"
   }
 }

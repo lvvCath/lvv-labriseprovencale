@@ -13,11 +13,15 @@
     "capacity": "10 adults and 3 children"
   },
   "section2": {
-    "bedroom": "Villa with Private Pool",
-    "kidsroom": "Villa Size: 450m²",
-    "livingroom": "Bedroom: 6",
-    "workplace": "Bathroom: 6",
-    "kitchen": "Free Wifi",
-    "diningroom": "10 adults and 3 children"
+    "title": "Premium Suite",
+    "bedroom": "Premium Bedroom",
+    "bedroomxsubtitle": "The Pinnacle of Luxury",
+    "kidsroom": "Kids' Room",
+    "kidsroomxsubtitle": "The Magical Nest",
+    "livingroom": "Living Room",
+    "livingroomxsubtitle": "A Haven of Luxury and Comfort",
+    "workplace": "Elegant Workspace",
+    "kitchen": "Grand Kitchen Elegance",
+    "diningroom": "Dining Room"
   }
 }

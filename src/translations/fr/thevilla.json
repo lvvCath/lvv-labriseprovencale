@@ -11,5 +11,17 @@
     "bathroom": "Salles de Bain : 6",
     "wifi": "Wifi Gratuit",
     "capacity": "Capacité : 10 adultes et 3 enfants"
+  },
+  "section2": {
+    "title": "Premium Suite",
+    "bedroom": "Bedroom",
+    "bedroomxsubtitle": "The Pinnacle of Luxury",
+    "kidsroom": "Kids Room",
+    "kidsroomxsubtitle": "The Magical Nest",
+    "livingroom": "Living Room",
+    "livingroomxsubtitle": "A Haven of Luxury and Comfort",
+    "workplace": "Workplace",
+    "kitchen": "Kitchen",
+    "diningroom": "Dining Room"
   }
 }
