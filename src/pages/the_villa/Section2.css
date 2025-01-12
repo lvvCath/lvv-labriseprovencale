@@ -6,12 +6,16 @@
     .navigation-s2 {
         align-items: center;
         background-color: var(--palette-5);
-        padding: 3rem 2rem;
+        padding: 3rem 5rem;
         --bs-gutter-x: 0 !important;
     }
 
     .nav_container_s2 {
         padding-top: 3rem;
+
+        .btns {
+            padding: 0;
+        }
     }
 
     .nav-line {
@@ -26,11 +30,10 @@
     }
 
     .nav-button {
-        margin: 0.5rem 2rem;
+        margin: 0.5rem 1rem;
         background-color: transparent;
         border: 0px;
-        font-size: 1rem;
-        color: #fff;
+        color: var(--palette-7);
     }
 
     .nav-text-s2 {
@@ -39,18 +42,17 @@
 
     .nav-button.active,
     .nav-button:hover {
-        color: #fff;
+        color: var(--palette-7);
     }
 
     .content-section {
-        padding: 2rem;
-        background-color: #fff;
-        border: 1px solid #ddd;
+        padding: 3rem 5rem;
+        background-color: var(--palette-7);
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 
         .img-title-s2 {
             width: 100%;
-            height: 60vh;
+            max-height: 60vh;
             object-fit: cover;
             background-position: center;
             position: relative;
@@ -70,9 +72,128 @@
                 margin-bottom: 0 !important;
             }
         }
+
+        .img-container-s2 {
+            max-height: 75vh;
+            display: grid;
+            grid-template-columns: 1.5fr 0.5fr 1fr;
+            grid-template-rows: 1.4fr 0.6fr 1fr;
+            gap: 0px 0px;
+
+            .img-1-container {
+                grid-area: 1 / 1 / 3 / 3;
+                border-right: var(--palette-7) solid 10px;
+                border-bottom: var(--palette-7) solid 10px;
+            }
+
+            .img-2-container {
+                grid-area: 1 / 3 / 2 / 4;
+
+                border-left: var(--palette-7) solid 10px;
+            }
+
+            .img-3-container {
+                grid-area: 3 / 1 / 4 / 2;
+                border-top: var(--palette-7) solid 10px;
+            }
+
+            .img-4-container {
+                grid-area: 2 / 2 / 4 / 4;
+                border-top: var(--palette-7) solid 20px;
+                border-left: var(--palette-7) solid 20px;
+            }
+
+            .img-container {
+                overflow: hidden;
+            }
+
+            .img-container>img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .content {
+            text-align: justify;
+            padding-left: 2rem;
+
+            .amenities {
+                text-align: left;
+
+                .line-with-diamond {
+                    margin: 3rem 0rem;
+                    padding: 0rem 1rem;
+                }
+
+                .installation-divider {
+                    display: flex;
+                    align-items: center;
+
+                    .title {
+                        font-size: var(--h1-font-size);
+                        padding: 0rem 2rem 0rem 0rem;
+                    }
+                }
+            }
+
+
+        }
+
     }
 
 
 
+    /* Medium screens */
+    @media (max-width: 1024px) {
 
+        .navigation-s2,
+        .content-section {
+            padding: 2rem 4rem;
+
+            /* Adjust padding for medium screens */
+            .content {
+                padding-top: 2rem;
+                padding-left: calc(var(--bs-gutter-x)* 0.5);
+            }
+        }
+    }
+
+    /* Small screens */
+    @media (max-width: 768px) {
+
+        .navigation-s2,
+        .content-section {
+            padding: 1.5rem 3rem;
+            /* Adjust padding for small screens */
+        }
+    }
+
+    /* Extra small screens */
+    @media (max-width: 480px) {
+
+        .navigation-s2,
+        .content-section {
+            padding: 1rem 2rem;
+            /* Adjust padding for extra small screens */
+        }
+    }
+}
+
+.modal-content {
+    background-color: var(--palette-1) !important;
+}
+
+.modal-image {
+    height: 70vh !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-image>img {
+    min-width: 20%;
+    max-height: 100%;
+    position: relative;
+    object-fit: cover;
 }

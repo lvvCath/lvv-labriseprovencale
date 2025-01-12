@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import "./Section2.css";
 import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Modal, Carousel } from "react-bootstrap";
 import divider from "../../assets/icon/divider1.png";
+import sample from "../../assets/images/thevilla/bedroom/1.jpeg";
 
 function Section2() {
   const { language } = useLanguage();
   const [selectedNav, setSelectedNav] = useState("bedroom");
+  const [showModal, setShowModal] = useState(false);
 
   const navItems = [
     { id: "bedroom", label: "Bedroom" },
@@ -17,6 +19,10 @@ function Section2() {
     { id: "kitchen", label: "Kitchen" },
     { id: "diningroom", label: "Dining Room" },
   ];
+
+  const handleImageClick = () => {
+    setShowModal(true);
+  };
 
   return (
     <Container fluid className="thevilla-s2">
@@ -35,34 +41,42 @@ function Section2() {
           <Row>
             <span className="nav-line"></span>
           </Row>
-          {navItems.slice(0, 3).map((item) => (
-            <button
-              key={item.id}
-              className={`nav-button underline-effect ${
-                selectedNav === item.id ? "active" : ""
-              }`}
-              onClick={() => setSelectedNav(item.id)}
-            >
-              <p className="text-color-light nav-text-s2">{item.label}</p>
-            </button>
-          ))}
+          <Row>
+            {navItems.slice(0, 3).map((item) => (
+              <Col className="btns">
+                <button
+                  key={item.id}
+                  className={`nav-button underline-effect ${
+                    selectedNav === item.id ? "active" : ""
+                  }`}
+                  onClick={() => setSelectedNav(item.id)}
+                >
+                  <p className="text-color-light nav-text-s2">{item.label}</p>
+                </button>
+              </Col>
+            ))}
+          </Row>
         </Col>
 
         <Col className="nav_container_s2">
           <Row>
             <span className="nav-line"></span>
           </Row>
-          {navItems.slice(3).map((item) => (
-            <button
-              key={item.id}
-              className={`nav-button underline-effect ${
-                selectedNav === item.id ? "active" : ""
-              }`}
-              onClick={() => setSelectedNav(item.id)}
-            >
-              <p className="text-color-light nav-text-s2">{item.label}</p>
-            </button>
-          ))}
+          <Row>
+            {navItems.slice(3).map((item) => (
+              <Col className="btns">
+                <button
+                  key={item.id}
+                  className={`nav-button underline-effect ${
+                    selectedNav === item.id ? "active" : ""
+                  }`}
+                  onClick={() => setSelectedNav(item.id)}
+                >
+                  <p className="text-color-light nav-text-s2">{item.label}</p>
+                </button>
+              </Col>
+            ))}
+          </Row>
         </Col>
       </Row>
 
@@ -98,10 +112,142 @@ function Section2() {
         {/* Room Details */}
         <Row>
           {/* Images */}
-          <Col></Col>
+          <Col xs={12} md={7} className="img-container-s2">
+            {[1, 2, 3, 4].map((num) => (
+              <div
+                key={num}
+                className={`img-container img-${num}-container`}
+                onClick={() => handleImageClick()}
+              >
+                <img
+                  src={`src/assets/images/thevilla/${selectedNav}/${num}.jpeg`}
+                  alt=""
+                  className="image"
+                />
+              </div>
+            ))}
+          </Col>
           {/* Info */}
-          <Col></Col>
+          <Col xs={12} md={5} className="content">
+            <p className="body-text-dark">
+              <GetText
+                folder={language}
+                page="thevilla"
+                section={`section2x${selectedNav}`}
+                field="content"
+              />
+            </p>
+
+            <Row className="amenities">
+              {selectedNav === "bedroom" || selectedNav === "kidsroom" ? (
+                <>
+                  <div>
+                    <span className="line-with-diamond">
+                      <div className="diamond"></div>
+                    </span>
+                  </div>
+
+                  <Col>
+                    <p className="body-text-dark bold">
+                      <GetText
+                        folder={language}
+                        page="thevilla"
+                        section={`section2x${selectedNav}`}
+                        field="amenities1"
+                      />
+                    </p>
+                    <p className="body-text-dark">
+                      <GetText
+                        folder={language}
+                        page="thevilla"
+                        section={`section2x${selectedNav}`}
+                        field="bullet1"
+                      />
+                    </p>
+                  </Col>
+                  <Col>
+                    <p className="body-text-dark bold">
+                      <GetText
+                        folder={language}
+                        page="thevilla"
+                        section={`section2x${selectedNav}`}
+                        field="amenities2"
+                      />
+                    </p>
+                    <p className="body-text-dark">
+                      <GetText
+                        folder={language}
+                        page="thevilla"
+                        section={`section2x${selectedNav}`}
+                        field="bullet2"
+                      />
+                    </p>
+                  </Col>
+                </>
+              ) : (
+                <Col>
+                  <div className="installation-divider">
+                    <h1 className="header-text-dark title">
+                      <GetText
+                        folder={language}
+                        page="thevilla"
+                        section={`section2x${selectedNav}`}
+                        field="installations"
+                      />
+                    </h1>
+                    <span className="line-with-diamond">
+                      <div className="diamond"></div>
+                    </span>
+                  </div>
+                  <p className="body-text-dark">
+                    <GetText
+                      folder={language}
+                      page="thevilla"
+                      section={`section2x${selectedNav}`}
+                      field="bullet"
+                    />
+                  </p>
+                </Col>
+              )}
+            </Row>
+          </Col>
         </Row>
+
+        {/* Modal for Image Gallery */}
+        <Modal
+          size="xl"
+          aria-labelledby="contained-modal-title-vcenter"
+          centered
+          show={showModal}
+          onHide={() => setShowModal(false)}
+        >
+          <Modal.Header closeButton>
+            <Modal.Title>
+              <h1 className="header-text-dark title">
+                <GetText
+                  folder={language}
+                  page="thevilla"
+                  section="section2"
+                  field="gallery"
+                />
+              </h1>
+            </Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <Carousel data-bs-theme="dark">
+              {[1, 2, 3, 4].map((num) => (
+                <Carousel.Item>
+                  <div className="modal-image">
+                    <img
+                      src={`src/assets/images/thevilla/${selectedNav}/${num}.jpeg`}
+                      alt=""
+                    />
+                  </div>
+                </Carousel.Item>
+              ))}
+            </Carousel>
+          </Modal.Body>
+        </Modal>
       </div>
     </Container>
   );

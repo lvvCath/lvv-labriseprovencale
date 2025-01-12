@@ -22,6 +22,41 @@
     "livingroomxsubtitle": "A Haven of Luxury and Comfort",
     "workplace": "Elegant Workspace",
     "kitchen": "Grand Kitchen Elegance",
-    "diningroom": "Dining Room"
+    "diningroom": "Dining Room",
+    "gallery": "Gallery"
+  },
+  "section2xbedroom": {
+    "content": "Discover unmatched luxury in our premium second-floor bedroom. This spacious suite features a king-sized bed, a fully glazed partition for natural light, and a private terrace with stunning views.\n\nThe ensuite bathroom is a haven with a freestanding bathtub, a luxurious shower system with invigorating body jets, and a rainforest shower. Elegant fixtures create a spa-like experience.\n\nA spacious walk-in closet and thoughtfully placed seating areas complete this serene retreat.",
+    "amenities1": "Bedroom Amenities",
+    "bullet1": "• King size bed\n• Bed linen\n• Extra pillows and blankets\n• Blackout blinds\n• Iron\n• Clothing storage: walk-in closet and wardrobe",
+    "amenities2": "Bathroom Amenities",
+    "bullet2": "• Bathtub\n• Rain shower and massage jets\n• Shampoos\n• Conditioner\n• Shower gel\n• Hairdryer"
+  },
+  "section2xkidsroom": {
+    "content": "Our enchanting kids' room is designed to spark joy and creativity.\n\nThis delightful space features vibrant décor, cozy beds, and ample storage for toys and belongings. Thoughtfully designed with young guests in mind, the room includes a play area filled with engaging activities, ensuring endless fun.\n\nWith safety and comfort as top priorities, this magical retreat offers children their own special haven within the villa, creating unforgettable memories during their stay.",
+    "amenities1": "Bedroom Amenities",
+    "bullet1": "• Bed linens\n• Extra pillows and blankets\n• Children’s books and toys\n• Clothing storage\n• Cinema-sized television: 215cm (85in)",
+    "amenities2": "Bathroom Amenities",
+    "bullet2": "• Shower\n• Shampoos\n• Conditioner\n• Shower gel\n• Hairdryer"
+  },
+  "section2xlivingroom": {
+    "content": "Step into our spacious living room, where luxury and comfort harmonize effortlessly. A large, stylish couch invites relaxation, complemented by a rejuvenating massage chair nearby. Enjoy cinematic experiences on the super-sized TV while natural light floods through large windows, illuminating the elegant space.\n\nA grand piano adds a touch of sophistication, perfect for music enthusiasts, while a cozy reading area offers a serene spot for literary escapes. This living room is designed to indulge your senses and provide a haven of relaxation and entertainment.",
+    "installations": "Installations",
+    "bullet": "• Large couch\n• Luxurious massage chair\n• TV\n• Wi-Fi\n• Piano\n• Sound system\n• Stylish single couch\n• Large windows and doors"
+  },
+  "section2xworkplace": {
+    "content": "Experience productivity and relaxation seamlessly intertwined in our sophisticated workspace. \n\nWith a spacious desk, ergonomic seating, and ample natural light, this area fosters focus and creativity. High-speed internet ensures seamless connectivity for work or leisure, complemented by a cozy corner for moments of reflection.\n\nDiscover a perfect blend of functionality and comfort designed to enhance your stay.",
+    "installations": "Installations",
+    "bullet": "• Dedicated workspace\n• Wifi is available in all areas and is free of charge."
+  },
+  "section2xkitchen": {
+    "content": "Step into our expansive kitchen, a beacon of sophistication and functionality. \n\nIt features a grand central island with a stylish bar, perfect for culinary creativity and social gatherings. \n\nEquipped with top-of-the-line appliances and bathed in natural light, this space effortlessly connects with the living room or dining area, ensuring every meal is a luxurious experience shared with loved ones.",
+    "installations": "Installations",
+    "bullet": "• Kitchen\n• Refrigerator\n• Cooking basics (Pots and pans, oil, salt and pepper)\n• Dishes and silverware\n• Dishwasher\n• Oven\n• Coffee maker\n• Wine glasses\n• Toaster\n• Blender\n• Thermomix\n• Microwave\n• Large central island"
+  },
+  "section2xdiningroom": {
+    "content": "Immerse yourself in a luxurious dining experience in our elegantly appointed dining area. A stunning marble-top table awaits, offering seating for ten and commanding views of the lush garden and mirror infinity pool. \n\nThis sophisticated setting is perfect for enjoying gourmet meals while staying connected with the beauty of the outdoors, making every dining moment a memorable occasion at our villa.",
+    "installations": "Installations",
+    "bullet": "• 10-seater dining table\n• Complete set of utensils\n• Children’s dinnerware\n• Folding or convertible high chair\n• Beautiful lighting fixtures\n• Window door leading to the backyard"
   }
 }

@@ -25,6 +25,7 @@
   --palette-4: #A59E96;
   --palette-5: #6E5F53;
   --palette-6: #E9E2D9;
+  --palette-7: #ffffff;
 
   /* Font Styles */
   --header-font-family: 'Tangerine', cursive;
@@ -66,4 +67,8 @@
   color: var(--text-color-light) !important;
   font-family: var(--text-font-family);
   font-size: var(--text-font-size);
+}
+
+.bold {
+  font-weight: 600;
 }
