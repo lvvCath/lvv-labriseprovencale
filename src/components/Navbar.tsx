@@ -55,8 +55,11 @@ export function NavBar() {
           placement="end"
         >
           <Offcanvas.Header closeButton>
-            <Offcanvas.Title id="offcanvasNavbarLabel-expand-lg">
-              Offcanvas
+            <Offcanvas.Title
+              id="offcanvasNavbarLabel-expand-lg"
+              className="header-text-dark"
+            >
+              La brise Provençale
             </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>

@@ -8,13 +8,14 @@
 }
 
 .navbar-top {
-    background-color: transparent !important;
+    background: linear-gradient(to bottom, rgba(27, 27, 27, 0.5), rgba(0, 0, 0, 0.001)) !important;
 }
-  
+
 .navbar-scrolled {
     background-color: rgba(233, 226, 217, 0.9) !important;
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+    -webkit-backdrop-filter: blur(10px);
+    /* For Safari support */
     box-shadow: 0 4px 17px 0px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
 }
@@ -32,6 +33,28 @@
     font-size: var(--text-font-size) !important;
 }
 
+
+.offcanvas-title {
+    font-size: var(--h3-font-size) !important;
+}
+
+.offcanvas.showing,
+.offcanvas.show:not(.hiding) {
+    background-color: var(--palette-2) !important;
+
+    .offcanvas-body {
+
+        .nav-body-text,
+        .language-button {
+            color: var(--text-color-dark) !important;
+        }
+
+        .language-buttons>span {
+            color: var(--text-color-dark) !important;
+        }
+    }
+}
+
 .language-buttons {
     display: flex;
     align-items: center;
@@ -41,7 +64,8 @@
 .language-button {
     background: none;
     border: none;
-    color: inherit; /* Use the same color as text */
+    color: inherit;
+    /* Use the same color as text */
     cursor: pointer;
     font-family: var(--text-font-family);
     font-size: var(--text-font-size);
@@ -59,17 +83,23 @@
     display: block;
     position: absolute;
     width: 100%;
-    height: 2px; /* Thickness of underline */
-    background: currentColor; /* Color of the text */
-    bottom: -2px; /* Position of underline */
+    height: 2px;
+    /* Thickness of underline */
+    background: currentColor;
+    /* Color of the text */
+    bottom: -2px;
+    /* Position of underline */
     left: 0;
-    transform: scaleX(0); /* Start with scale 0 */
-    transition: transform 0.3s ease; /* Animation duration */
+    transform: scaleX(0);
+    /* Start with scale 0 */
+    transition: transform 0.3s ease;
+    /* Animation duration */
 }
 
 /* Scale to full width on hover */
 .underline-effect:hover::after {
-    transform: scaleX(1); /* Scale to full width on hover */
+    transform: scaleX(1);
+    /* Scale to full width on hover */
 }
 
 /* Active state underline */
@@ -78,10 +108,15 @@
     display: block;
     position: absolute;
     width: 100%;
-    height: 2px; /* Thickness of underline */
-    background: currentColor; /* Color of the text */
-    bottom: -2px; /* Position of underline */
+    height: 2px;
+    /* Thickness of underline */
+    background: currentColor;
+    /* Color of the text */
+    bottom: -2px;
+    /* Position of underline */
     left: 0;
-    transform: scaleX(1); /* Keep full width for active state */
-    transition: none; /* Disable animation for active state */
+    transform: scaleX(1);
+    /* Keep full width for active state */
+    transition: none;
+    /* Disable animation for active state */
 }

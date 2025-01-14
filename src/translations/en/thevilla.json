@@ -25,6 +25,14 @@
     "diningroom": "Dining Room",
     "gallery": "Gallery"
   },
+  "section2xnav": {
+    "bedroom": "Bedroom",
+    "kidsroom": "Kids room",
+    "livingroom": "Living room",
+    "workplace": "Workspace",
+    "kitchen": "kitchen",
+    "diningroom": "Dining room"
+  },
   "section2xbedroom": {
     "content": "Discover unmatched luxury in our premium second-floor bedroom. This spacious suite features a king-sized bed, a fully glazed partition for natural light, and a private terrace with stunning views.\n\nThe ensuite bathroom is a haven with a freestanding bathtub, a luxurious shower system with invigorating body jets, and a rainforest shower. Elegant fixtures create a spa-like experience.\n\nA spacious walk-in closet and thoughtfully placed seating areas complete this serene retreat.",
     "amenities1": "Bedroom Amenities",
@@ -58,5 +66,64 @@
     "content": "Immerse yourself in a luxurious dining experience in our elegantly appointed dining area. A stunning marble-top table awaits, offering seating for ten and commanding views of the lush garden and mirror infinity pool. \n\nThis sophisticated setting is perfect for enjoying gourmet meals while staying connected with the beauty of the outdoors, making every dining moment a memorable occasion at our villa.",
     "installations": "Installations",
     "bullet": "• 10-seater dining table\n• Complete set of utensils\n• Children’s dinnerware\n• Folding or convertible high chair\n• Beautiful lighting fixtures\n• Window door leading to the backyard"
+  },
+  "section3": {
+    "title": "Guest Suite",
+    "violet": "Violet Room",
+    "peony": "Peony Room",
+    "orchid": "Orchid Room",
+    "lilac": "Lilac Room",
+    "living": "Living Room",
+    "kitchen": "Kitchen & Dining"
+  },
+  "section3xviolet": {
+    "title": "Violet Room",
+    "subtitle": "Pool View Suite",
+    "content": "Discover our Violet bedroom, adorned with a private terrace offering stunning vistas of the mirror infinity pool. This exquisite retreat features luxurious king-size beds, ample wardrobe space, and secure safes for your valuables. Extra pillows and blankets ensure personalized comfort, while modern amenities like flat-screen TVs and high-speed internet keep you connected and entertained.\n\nThis bedroom includes an en-suite bathroom, ensuring ultimate convenience and privacy.\n\nEvery detail in our meticulously designed bedrooms guarantees a serene and sophisticated stay, promising rest and relaxation amidst picturesque views.",
+    "amenities1": "Bedroom Amenities",
+    "bullet1": "• Queen size bed \n• Bed linens\n• Extra pillows and blankets\n• Clothing storage",
+    "amenities2": "Bathroom Amenities",
+    "bullet2": "• Shower\n• Shampoo\n• Conditioner\n• Shower gel\n• Hairdryer"
+  },
+  "section3xpeony": {
+    "title": "Peony Room",
+    "subtitle": "Pool View Bedroom with Separated Private Bathroom",
+    "content": "Welcome to our serene bedroom, offering a private terrace and breathtaking views of the mirror infinity pool and the magnificent garden. These luxurious sanctuaries feature king-size beds adorned with plush linens, ample clothing storage, and secure safes for your convenience. Enjoy personalized comfort with extra pillows and blankets, along with modern amenities such as TVs and high-speed internet, ensuring connectivity and entertainment. \n\nThis pool-view bedroom has its bathroom conveniently located just next to the room, providing easy access. ",
+    "amenities1": "Bedroom Amenities",
+    "bullet1": "• Queen size bed \n• Bed linens\n• Extra pillows and blankets\n• Clothing storage",
+    "amenities2": "Bathroom Amenities",
+    "bullet2": "• Shower\n• Shampoo\n• Conditioner\n• Shower gel\n• Hairdryer"
+  },
+  "section3xorchid": {
+    "title": "Orchid Room",
+    "subtitle": "Pool View Suite without Terrasse",
+    "content": "Discover tranquility and sophistication in this inviting bedroom, complete with a private en-suite bathroom. Tastefully designed for comfort, the room features a large window that invites natural light to dance across the space, creating a warm and welcoming ambiance throughout the day. Thoughtful touches of elegant decor and plush furnishings ensure a luxurious retreat, perfect for unwinding after a long day. \n\nWhether for a peaceful night's sleep or a moment of quiet reflection, this bedroom offers a harmonious blend of comfort and style.",
+    "amenities1": "Bedroom Amenities",
+    "bullet1": "• Queen size bed \n• Bed linens\n• Extra pillows and blankets\n• Clothing storage",
+    "amenities2": "Bathroom Amenities",
+    "bullet2": "• Shower\n• Shampoo\n• Conditioner\n• Shower gel\n• Hairdryer"
+  },
+  "section3xlilac": {
+    "title": "Lilac Room",
+    "subtitle": "Basement Suite",
+    "content": "Nestled adjacent to the subterranean entertainment haven, the en-suite bathroom epitomizes a seamless blend of luxury and functionality. \n\nA defining element of this room is the strategically placed window, ingeniously linked to a sun tunnel, which create a bright and airy atmosphere, enhancing the overall ambiance of the room.\n\nEnjoy some downtime in this cozy bedroom, complete with all the essentials for a restful stay.",
+    "amenities1": "Bedroom Amenities",
+    "bullet1": "• Queen size bed \n• Bed linens\n• Extra pillows and blankets\n• Clothing storage",
+    "amenities2": "Bathroom Amenities",
+    "bullet2": "• Shower\n• Shampoo\n• Conditioner\n• Shower gel\n• Hairdryer"
+  },
+  "section3xliving": {
+    "title": "Living Room",
+    "subtitle": "Cozy Guest Living Space",
+    "content": "The guest house living room is a blend of comfort and modern amenities, providing an ideal space for relaxation and entertainment. Featuring a comfortable sofa and stylish decor, this room offers a cozy retreat with a stunning view of the pool. \n\nGuests can unwind while watching their favorite shows on the flat-screen TV or stay connected with high-speed internet. Large windows not only frame the beautiful pool view but also flood the room with natural light, creating a warm and inviting atmosphere perfect for relaxation or socializing.",
+    "installations": "Installations",
+    "bullet": "• Large couch\n• TV\n• Wi-Fi\n• Sound system\n• Large windows and doors"
+  },
+  "section3xkitchen": {
+    "title": "Kitchen & Dining",
+    "subtitle": "Guest Kitchen and Dining Retreat",
+    "content": "The guest house boasts a modern and fully equipped kitchen, designed for convenience and style. This sophisticated space features high-end appliances, ample counter space, and all the essentials you need to prepare gourmet meals. \n\nThe adjacent dining area, with its elegant design and comfortable seating, is perfect for enjoying meals with family and friends. Large windows provide plenty of natural light, creating a warm and inviting atmosphere. Whether you're preparing a quick breakfast or a lavish dinner, the kitchen and dining area in the guest house offer a delightful culinary experience.",
+    "installations": "Installations",
+    "bullet": "• 6-seater dining table\n• Dishes and silverware\n• Refrigerator\n• Oven\n• Coffee maker\n• Cooking basics (Pots and pans, oil, salt and pepper)\n• Dishwasher\n• Window door leading to the backyard\n• Microwave\n• Nespresso coffee machine"
   }
 }

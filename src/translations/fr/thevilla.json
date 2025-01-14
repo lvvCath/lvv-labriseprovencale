@@ -13,15 +13,117 @@
     "capacity": "Capacité : 10 adultes et 3 enfants"
   },
   "section2": {
-    "title": "Premium Suite",
-    "bedroom": "Bedroom",
-    "bedroomxsubtitle": "The Pinnacle of Luxury",
-    "kidsroom": "Kids Room",
-    "kidsroomxsubtitle": "The Magical Nest",
-    "livingroom": "Living Room",
-    "livingroomxsubtitle": "A Haven of Luxury and Comfort",
-    "workplace": "Workplace",
-    "kitchen": "Kitchen",
-    "diningroom": "Dining Room"
+    "title": "Suite Premium",
+    "bedroom": "Chambre",
+    "bedroomxsubtitle": "Le Summum du Luxe",
+    "kidsroom": "Chambre enfant",
+    "kidsroomxsubtitle": "Le Nid Magique",
+    "livingroom": "Salon",
+    "livingroomxsubtitle": "Un Havre de Luxe et de Confort",
+    "workplace": "Espace de Travail",
+    "kitchen": "Cuisine",
+    "diningroom": "Salle à Manger",
+    "gallery": "Galerie d'images"
+  },
+  "section2xnav": {
+    "bedroom": "Chambre",
+    "kidsroom": "Chambre enfant",
+    "livingroom": "Salon",
+    "workplace": "Espace de Travail",
+    "kitchen": "Cuisine",
+    "diningroom": "Salle à Manger"
+  },
+  "section2xbedroom": {
+    "content": "Découvrez un luxe inégalé dans notre chambre premium au deuxième étage. Cette suite spacieuse dispose d'un lit king-size, d'une cloison entièrement vitrée pour laisser entrer la lumière naturelle, et d'une terrasse privée offrant une vue imprenable.\n\nLa salle de bain attenante est un véritable havre de paix, avec une baignoire îlot, un système de douche luxueux avec des jets corporels revitalisants et une douche effet pluie. Des installations élégantes créent une expérience digne d'un spa.\n\nUn vaste dressing et des coins salon bien pensés complètent ce refuge serein.",
+    "amenities1": "Chambre",
+    "bullet1": "• Lit king \n• Linge de lit \n• Oreillers et couvertures supplémentaires\nStore occultants\n• Fer à repasser \n• Rangement pour vêtements : dressing et placard",
+    "amenities2": "Salle de Bain",
+    "bullet2": "• Baignoire îlot\n• Douche ciel de pluie et jets massants\n• Shampoings\n• Après shampoing\n• Gel douche\n• Sèche cheveux"
+  },
+  "section2xkidsroom": {
+    "content": "Notre chambre enfant enchanteresse est conçue pour éveiller la joie et la créativité.\n\nCet espace charmant se distingue par une décoration vive, des lits douillets, et un espace de rangement généreux pour les jouets et les affaires personnelles. Conçue avec soin pour nos jeunes invités, la chambre comprend une aire de jeu remplie d'activités captivantes, garantissant un plaisir sans fin.\n\nAvec la sécurité et le confort comme priorités absolues, ce refuge magique offre aux enfants leur propre havre spécial au sein de la villa, créant des souvenirs inoubliables pendant leur séjour.",
+    "amenities1": "Chambre",
+    "bullet1": "• Linge de lit\n• Oreillers et couvertures supplémentaires\n• Livres et jouets pour enfants\n• Rangement pour vêtements\n• Television taille cinema: 215 cm (85 in)",
+    "amenities2": "Salle de Bain",
+    "bullet2": "• Douche\n• Shampoings \n• Après shampoing \n• Gel douche \n• Sèche cheveux"
+  },
+  "section2xlivingroom": {
+    "content": "Entrez dans notre salon spacieux, où luxe et confort se marient harmonieusement. Un grand canapé élégant invite à la détente, accompagné d’un fauteuil de massage revitalisant à proximité. Profitez d'expériences cinématographiques sur une télévision grand format tandis que la lumière naturelle inonde l'espace élégant à travers de grandes fenêtres.\n\nUn piano à queue ajoute une touche de sophistication, parfait pour les amateurs de musique, tandis qu'un coin lecture confortable offre un endroit serein pour des échappées littéraires. Ce salon est conçu pour satisfaire vos sens et offrir un havre de détente et de divertissement.",
+    "installations": "Installations",
+    "bullet": "• Grand canapé\n• Fauteuil de massage luxueux\n• Télévision\n• Wi-Fi\n• Système audio\n• Fauteuil élégant\n• Grandes fenêtres et portes"
+  },
+  "section2xworkplace": {
+    "content": "Découvrez un espace de travail où productivité et détente se mêlent harmonieusement.\n\nDoté d'un bureau spacieux, d'un siège ergonomique et baigné de lumière naturelle, cet espace favorise la concentration et la créativité. Une connexion Internet haut débit assure une connectivité fluide pour le travail ou les loisirs, complétée par un coin chaleureux pour des moments de réflexion.\n\nDécouvrez un mélange parfait de fonctionnalité et de confort conçu pour améliorer votre séjour.",
+    "installations": "Installations",
+    "bullet": "• Espace de travail dédié\n• Le Wi-Fi est disponible dans toutes les zones et est gratuit."
+  },
+  "section2xkitchen": {
+    "content": "Entrez dans notre vaste cuisine, un exemple de sophistication et de fonctionnalité.\n\nElle est dotée d'une grande îlot central avec un bar élégant, parfait pour la créativité culinaire et les réunions sociales.\n\nÉquipée d'appareils de pointe et baignée de lumière naturelle, cet espace se connecte aisément au salon ou à la salle à manger, garantissant que chaque repas est une expérience luxueuse à partager avec vos proches.",
+    "installations": "Installations",
+    "bullet": "• Réfrigérateur\n• Éléments de base pour la cuisine (casseroles et poêles, huile, sel et poivre)\n• Vaisselle et couverts\n• Lave-vaisselle\n• Four\n• Cafetière\n• Verres à vin\n• Grille-pain\n• Mixeur\n• Thermomix\n• Micro-ondes\n• Grand îlot central"
+  },
+  "section2xdiningroom": {
+    "content": "Plongez dans une expérience culinaire luxueuse dans notre salle à manger élégamment aménagée. Une magnifique table en marbre vous attend, offrant des places pour dix personnes et une vue imprenable sur le jardin luxuriant et la piscine à débordement miroir.\n\nCe cadre sophistiqué est parfait pour savourer des repas gastronomiques tout en restant connecté à la beauté de la nature, rendant chaque moment de repas inoubliable dans notre villa.",
+    "installations": "Installations",
+    "bullet": "• Table à manger pour 10 personnes\n• Ensemble complet d'ustensiles\n• Vaisselle pour enfants\n• Chaise haute pliable ou convertible\n• Superbes luminaires\n• Porte-fenêtre donnant sur le jardin"
+  },
+  "section3": {
+    "title": "Suite d'invités",
+    "violet": "Chambre Violet",
+    "peony": "Chambre Peony",
+    "orchid": "Chambre Orchid",
+    "lilac": "Chambre Lilac",
+    "living": "Salon",
+    "kitchen": "Cuisine et Salle à Manger"
+  },
+  "section3xviolet": {
+    "title": "Chambre Violet",
+    "subtitle": "Suite avec Vue sur la Piscine",
+    "content": "Découvrez notre chambre Violette, ornée d'une terrasse privée offrant une vue imprenable sur la piscine miroir à débordement. Ce refuge exquis dispose de lits king-size luxueux, de grands espaces de rangement et de coffres-forts pour vos objets de valeur. Des oreillers et des couvertures supplémentaires assurent un confort personnalisé, tandis que des équipements modernes tels que des téléviseurs à écran plat et Internet haute vitesse vous gardent connecté et diverti.\n\nCette chambre comprend une salle de bain attenante, garantissant confort et intimité.\n\nChaque détail de nos chambres méticuleusement conçues assure un séjour serein et sophistiqué, promettant repos et détente au milieu de vues pittoresques.",
+    "amenities1": "Chambre",
+    "bullet1": "• Lit queen\n• Linge de lit\n• Oreillers et couvertures supplémentaires\n• Rangement pour vêtements",
+    "amenities2": "Salle de Bain",
+    "bullet2": "• Douche\n• Shampoings \n• Après shampoing \n• Gel douche \n• Sèche cheveux"
+  },
+  "section3xpeony": {
+    "title": "Chambre Peony",
+    "subtitle": "Chambre avec Vue sur la Piscine et Salle de Bain Séparée",
+    "content": "Bienvenue dans notre chambre sereine, offrant une terrasse privée et une vue imprenable sur la piscine miroir à débordement et le magnifique jardin. Ces sanctuaires luxueux disposent de lits king-size ornés de draps en peluche, de nombreux rangements pour les vêtements et de coffres-forts pour votre commodité. Profitez d'un confort personnalisé avec des oreillers et des couvertures supplémentaires, ainsi que d'équipements modernes tels que des téléviseurs et Internet haute vitesse, assurant connectivité et divertissement.\n\nCette chambre avec vue sur la piscine dispose d'une salle de bain située juste à côté de la chambre, offrant un accès facile.",
+    "amenities1": "Chambre",
+    "bullet1": "• Lit queen\n• Linge de lit\n• Oreillers et couvertures supplémentaires\n• Rangement pour vêtements",
+    "amenities2": "Salle de Bain",
+    "bullet2": "• Douche\n• Shampoings \n• Après shampoing \n• Gel douche \n• Sèche cheveux"
+  },
+  "section3xorchid": {
+    "title": "Chambre Orchid",
+    "subtitle": "Suite avec Vue sur la Piscine sans Terrasse",
+    "content": "Découvrez la tranquillité et la sophistication dans cette chambre accueillante, dotée d'une salle de bain attenante. Conçue avec goût pour le confort, la chambre est équipée d'une grande fenêtre qui laisse entrer la lumière naturelle, créant une ambiance chaleureuse et accueillante tout au long de la journée. Des touches élégantes de décoration et de meubles luxueux garantissent un refuge luxueux, parfait pour se détendre après une longue journée.\n\nQue ce soit pour une nuit de sommeil paisible ou un moment de réflexion tranquille, cette chambre offre un mélange harmonieux de confort et de style.",
+    "amenities1": "Chambre",
+    "bullet1": "• Lit queen\n• Linge de lit\n• Oreillers et couvertures supplémentaires\n• Rangement pour vêtements",
+    "amenities2": "Salle de Bain",
+    "bullet2": "• Douche\n• Shampoings \n• Après shampoing \n• Gel douche \n• Sèche cheveux"
+  },
+  "section3xlilac": {
+    "title": "Chambre Lilac",
+    "subtitle": "Suite au étage inférieur",
+    "content": "Située à côté du havre de divertissement souterrain, la salle de bain attenante incarne un mélange parfait de luxe et de fonctionnalité.\n\nUn élément clé de cette chambre est la fenêtre stratégiquement placée, ingénieusement reliée à un puits de lumière, créant une atmosphère lumineuse et aérée qui rehausse l'ambiance générale de la pièce.\n\nProfitez de moments de détente dans cette chambre confortable, équipée de tout le nécessaire pour un séjour reposant.",
+    "amenities1": "Chambre",
+    "bullet1": "• Lit queen\n• Linge de lit\n• Oreillers et couvertures supplémentaires\n• Rangement pour vêtements",
+    "amenities2": "Salle de Bain",
+    "bullet2": "• Douche\n• Shampoings \n• Après shampoing \n• Gel douche \n• Sèche cheveux"
+  },
+  "section3xliving": {
+    "title": "Salon",
+    "subtitle": "Espace de Vie Convivial pour Invités",
+    "content": "Le salon de la maison des invités est un mélange de confort et de commodités modernes, offrant un espace idéal pour la détente et le divertissement. Avec un canapé confortable et une décoration élégante, cette pièce offre un refuge agréable avec une vue imprenable sur la piscine.\n\nLes invités peuvent se détendre en regardant leurs émissions préférées sur la télévision à écran plat ou rester connectés grâce à Internet haute vitesse. Les grandes fenêtres encadrent non seulement la belle vue sur la piscine, mais inondent également la pièce de lumière naturelle, créant une ambiance chaleureuse et accueillante, parfaite pour se détendre ou socialiser.",
+    "installations": "Installations",
+    "bullet": "• Grand canapé\n• Télévision\n• Wi-Fi\n• Système audio\n• Grandes fenêtres et portes"
+  },
+  "section3xkitchen": {
+    "title": "Cuisine et Salle à Manger",
+    "subtitle": "Cuisine et Salle à Manger pour Invités",
+    "content": "La maison des invités dispose d'une cuisine moderne et entièrement équipée, conçue pour le confort et le style. Cet espace sophistiqué est doté d'appareils haut de gamme, de nombreux plans de travail et de tous les essentiels nécessaires pour préparer des repas gastronomiques.\n\nLa salle à manger adjacente, avec son design élégant et ses sièges confortables, est parfaite pour partager des repas en famille et entre amis. Les grandes fenêtres offrent une abondante lumière naturelle, créant une atmosphère chaleureuse et accueillante. Que vous prépariez un petit-déjeuner rapide ou un dîner somptueux, la cuisine et la salle à manger de la maison des invités offrent une expérience culinaire agréable.",
+    "installations": "Installations",
+    "bullet": "• Table à manger pour 6 personnes\n• Vaisselle et couverts\n• Réfrigérateur\n• Four\n• Cafetière\n• Éléments de base pour la cuisine (casseroles et poêles, huile, sel et poivre)\n• Lave-vaisselle\n• Porte-fenêtre donnant sur le jardin\n• Micro-ondes\n• Machine à café Nespresso"
   }
 }

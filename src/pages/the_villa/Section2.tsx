@@ -4,7 +4,6 @@ import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container, Row, Col, Modal, Carousel } from "react-bootstrap";
 import divider from "../../assets/icon/divider1.png";
-import sample from "../../assets/images/thevilla/bedroom/1.jpeg";
 
 function Section2() {
   const { language } = useLanguage();
@@ -51,7 +50,14 @@ function Section2() {
                   }`}
                   onClick={() => setSelectedNav(item.id)}
                 >
-                  <p className="text-color-light nav-text-s2">{item.label}</p>
+                  <p className="text-color-light nav-text-s2">
+                    <GetText
+                      folder={language}
+                      page="thevilla"
+                      section="section2xnav"
+                      field={item.id}
+                    />
+                  </p>
                 </button>
               </Col>
             ))}
@@ -72,7 +78,14 @@ function Section2() {
                   }`}
                   onClick={() => setSelectedNav(item.id)}
                 >
-                  <p className="text-color-light nav-text-s2">{item.label}</p>
+                  <p className="text-color-light nav-text-s2">
+                    <GetText
+                      folder={language}
+                      page="thevilla"
+                      section="section2xnav"
+                      field={item.id}
+                    />
+                  </p>
                 </button>
               </Col>
             ))}
@@ -112,7 +125,7 @@ function Section2() {
         {/* Room Details */}
         <Row>
           {/* Images */}
-          <Col xs={12} md={7} className="img-container-s2">
+          <Col xs={12} md={12} lg={7} className="img-container-s2">
             {[1, 2, 3, 4].map((num) => (
               <div
                 key={num}
@@ -128,7 +141,7 @@ function Section2() {
             ))}
           </Col>
           {/* Info */}
-          <Col xs={12} md={5} className="content">
+          <Col xs={12} md={12} lg={5} className="content">
             <p className="body-text-dark">
               <GetText
                 folder={language}
