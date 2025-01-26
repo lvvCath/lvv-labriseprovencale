@@ -4,7 +4,7 @@ import { HomePage } from "./pages/homepage/Homepage";
 import { TheVilla } from "./pages/the_villa/TheVilla";
 import "./constants/constants.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Outdoor } from "./pages/outside/Outdoor";
+import { Outdoor } from "./pages/outdoor/Outdoor";
 import { ContactUs } from "./pages/contact_us/ContactUs";
 import { Information } from "./pages/info/Information";
 import { GuestHouse } from "./pages/guest_house/GuestHouse";

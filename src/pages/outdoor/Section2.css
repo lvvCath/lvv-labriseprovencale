@@ -1,0 +1,117 @@
+.outdoor-s2 {
+    background-color: var(--palette-7);
+
+    .navigation {
+        padding: 3rem 5rem 0rem 5rem;
+
+        .title {
+            font-size: var(--h0-font-size);
+            margin-bottom: 0 !important;
+        }
+
+        .container-btns {
+            align-content: center;
+            justify-items: end;
+
+            .container-btn {
+                padding: 0.5rem;
+                text-align: center;
+
+                .nav-btn {
+                    border-radius: 10px;
+                    border: solid var(--palette-5) 2px;
+                    background-color: var(--palette-7);
+
+                    .nav-text {
+                        margin: 0;
+                        padding: 0.2rem 1.5rem;
+                        text-wrap-mode: nowrap;
+                    }
+                }
+
+                .nav-btn.active,
+                .nav-btn:hover {
+                    color: var(--palette-7);
+                    background-color: var(--palette-5);
+                }
+            }
+        }
+    }
+
+    .nav-line {
+        flex: 1;
+        border: none;
+        background-color: var(--palette-5);
+        width: 0.4rem;
+        height: 0.15rem;
+        margin: 0rem 5rem 0rem 5rem;
+    }
+
+    .content-section {
+        padding: 2rem 5rem 3rem 5rem;
+    }
+
+    /* Medium screens */
+    @media (max-width: 1024px) {
+        .navigation {
+            text-align: center;
+            text-wrap-mode: nowrap;
+
+            .container-btns {
+                align-content: center;
+                justify-items: center !important;
+            }
+        }
+
+        .navigation,
+        .content-section {
+            padding: 2rem 4rem;
+        }
+    }
+
+    /* Small screens */
+    @media (max-width: 768px) {
+        .navigation {
+            text-align: center;
+            text-wrap-mode: nowrap;
+
+            .container-btns {
+                align-content: center;
+                justify-items: center !important;
+            }
+        }
+
+        .nav-line {
+            margin: 0rem 3rem 0rem 3rem;
+        }
+
+
+        .navigation,
+        .content-section {
+            padding: 1.5rem 2rem;
+        }
+    }
+
+    /* Extra small screens */
+    @media (max-width: 480px) {
+        .navigation {
+            text-align: center;
+            text-wrap-mode: nowrap;
+
+            .container-btns {
+                align-content: center;
+                justify-items: center !important;
+            }
+        }
+
+        .nav-line {
+            margin: 0rem 3rem 0rem 3rem;
+        }
+
+
+        .navigation,
+        .content-section {
+            padding: 1rem 1rem;
+        }
+    }
+}
