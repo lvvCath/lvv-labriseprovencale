@@ -32,7 +32,7 @@
   --text-font-family: 'Poppins', sans-serif;
 
   /* Responsive Font Sizes adjusts with viewport */
-  --h0-font-size: clamp(4rem, 2vw + 1rem, 5rem);
+  --h0-font-size: clamp(1rem, 2vw + 2rem, 5rem);
   --h1-font-size: clamp(3rem, 2vw + 1rem, 4rem);
   --h2-font-size: clamp(2rem, 2vw + 1rem, 2.1rem);
   --h3-font-size: clamp(1rem, 2vw + 1rem, 2rem);

@@ -125,5 +125,80 @@
     "content": "La maison des invités dispose d'une cuisine moderne et entièrement équipée, conçue pour le confort et le style. Cet espace sophistiqué est doté d'appareils haut de gamme, de nombreux plans de travail et de tous les essentiels nécessaires pour préparer des repas gastronomiques.\n\nLa salle à manger adjacente, avec son design élégant et ses sièges confortables, est parfaite pour partager des repas en famille et entre amis. Les grandes fenêtres offrent une abondante lumière naturelle, créant une atmosphère chaleureuse et accueillante. Que vous prépariez un petit-déjeuner rapide ou un dîner somptueux, la cuisine et la salle à manger de la maison des invités offrent une expérience culinaire agréable.",
     "installations": "Installations",
     "bullet": "• Table à manger pour 6 personnes\n• Vaisselle et couverts\n• Réfrigérateur\n• Four\n• Cafetière\n• Éléments de base pour la cuisine (casseroles et poêles, huile, sel et poivre)\n• Lave-vaisselle\n• Porte-fenêtre donnant sur le jardin\n• Micro-ondes\n• Machine à café Nespresso"
+  },
+  "section4": {
+    "title": "Équipements Exclusifs",
+    "theater": "Cinéma Privé",
+    "playroom": "Salle de Jeux",
+    "spa": "Spa & Bien-être",
+    "gym": "Salle de Sport",
+    "pool": "Piscine",
+    "playground": "Aire de Jeux",
+    "outdoor": "Espace de Vie Extérieur"
+  },
+  "section4xtheater": {
+    "title": "Cinéma Privé",
+    "subtitle": "Profitez d'un luxe cinématographique dans notre cinéma privé, où chaque détail est conçu pour votre confort et plaisir absolus.",
+    "content": "Le plafond étoilé crée une atmosphère envoûtante, vous transportant dans un monde céleste pendant que vous regardez vos films préférés. Un projecteur de pointe et un système de son immersif assurent une expérience de visionnage de premier ordre.\n\nInstallez-vous dans les canapés extensibles et confortables, qui offrent un confort ajustable pour se détendre sous n’importe quel angle. Ce cinéma privé promet une expérience de divertissement inégalée dans l’intimité de votre villa.",
+    "installations": "Installations",
+    "bullet": "• Projecteur\n• Écran de projection\n• Système de son home cinema\n• Canapé relax haute de gamme (électrique)\n• Le wifi est disponible dans toutes les zones et est gratuit"
+  },
+  "section4xplayroom": {
+    "title": "Salle de Jeux",
+    "subtitle": "Libérez votre âme d'enfant dans notre salle de jeux dynamique, idéale pour les enfants et les adultes !",
+    "content": "Découvrez notre paradis des jeux, un espace dynamique qui ravira tous les âges. Équipé de billard, fléchettes, jeux d'arcade, baby-foot, air hockey, puzzles, et plus encore, il promet des heures de plaisir.\n\nUn téléviseur connecté offre un divertissement sans fin. Idéale pour les fêtes ou les moments de détente, cette salle est un véritable havre de jeu.\n\nÀ l'extérieur, une terrasse en gazon synthétique permet des jeux comme le football ou le basketball, pour encore plus de plaisir en plein air.",
+    "installations": "Installations",
+    "bullet": "• Tennis de table\n• Fléchettes\n• Billard\n• Jouets pour enfants\n• Jeux de société/puzzles\n• Jeux d'arcade\n• Air hockey\n• Baby-foot"
+  },
+  "section4xspa": {
+    "title": "Évasion Bien-Être",
+    "subtitle": "Plongez dans une oasis de sérénité où tranquillité rime avec luxe, permettant à votre esprit, votre corps et votre âme de se régénérer en parfaite harmonie.",
+    "content": "Offrez-vous une relaxation ultime dans notre sanctuaire de spa et bien-être. Détendez-vous dans la chaleur régénérante de notre sauna, conçu pour détoxifier et revitaliser vos sens. Apaisez vos muscles et votre esprit dans notre jacuzzi luxueux, offrant une évasion sereine du stress quotidien. Chaque élément de notre espace bien-être est conçu pour offrir une expérience tranquille et réparatrice, vous garantissant de repartir rafraîchi et revitalisé.",
+    "installations": "Installations",
+    "bullet": "• Fauteuil massant\n• Bain à remous / Jacuzzi\n• Sauna"
+  },
+  "section4xgym": {
+    "title": "Salle de sport",
+    "subtitle": "Entrez dans notre salle de sport ultra-moderne, où design élégant et équipements de pointe se rencontrent pour créer l'espace idéal pour des séances d'entraînement stimulantes et un bien-être personnel.",
+    "content": "Notre salle de sport bien équipée a tout ce qu’il faut pour maintenir votre routine de fitness pendant votre séjour.\n\nAvec des machines de fitness, des poids libres, et des tapis de yoga, elle s’adapte à toutes les préférences d'entraînement. De grandes fenêtres offrent une vue apaisante sur la piscine, parfait pour le cardio.\n\nConçue avec soin, cette salle de sport moderne garantit une expérience d'exercice confortable et efficace.",
+    "installations": "Installations",
+    "bullet": "• Fitness Wheel\n• Rameur\n• Ensemble de kettlebells\n• Barres de traction multi-prise\n• Double poulie réglable\n• Banc de musculation\n• Entraîneur de vitesse MMA avec barre tournante et tête de frappe double"
+  },
+  "section4xpool": {
+    "title": "Piscine Miroir",
+    "subtitle": "Évadez-vous vers la sérénité dans notre oasis tranquille, où les eaux scintillantes de notre piscine privée vous invitent à vous détendre et à profiter du soleil dans un confort luxueux.",
+    "content": "Immergez-vous dans la splendeur de notre magnifique piscine miroir à débordement de 15x5m, l'incarnation même de l'élégance et de la détente. Cette piscine époustouflante présente un design unique où l'eau se déverse harmonieusement sur les bords, créant un effet visuel captivant et une sensation de tranquillité infinie.\n\nTraitée à l'eau salée, elle offre une alternative plus douce et plus respectueuse de la peau par rapport aux traitements traditionnels au chlore.\n\nUne zone peu profonde, de seulement 45 cm de profondeur, est parfaite pour que les enfants puissent en profiter en toute sécurité, tandis qu'une belle fontaine ajoute à l'ambiance sereine. Positionnée pour offrir une vue imprenable sur le paysage environnant, notre piscine à débordement promet une expérience de baignade luxueuse et sereine pour tous les âges.",
+    "installations": "Installations",
+    "bullet": "• Piscine miroir à débordement\n• Piscine à eau salée\n• Élément fontaine gracieuse\n• Jouets / matelas et bouée pour la piscine\n• Chaises longues\n• Parasols"
+  },
+  "section4xplayground": {
+    "title": "Aire de Jeux en Plein Air",
+    "subtitle": "Laissez libre cours à la joie et à l'aventure dans notre aire de jeux dynamique, où rires et imagination prennent vie.",
+    "content": "Découvrez notre aire de jeux extérieure, un véritable paradis pour les enfants avec toboggans, tourniquet, balançoire pour tout-petits, corde d'escalade et trampoline. Pour les plus audacieux, une tyrolienne ajoute du frisson, et une boule gonflable transparente permet de marcher sur l'eau.\n\nUn terrain de pétanque est également disponible pour tous les âges.\n\nConçu pour la sécurité et le plaisir, cet espace est idéal pour explorer et s'amuser en toute sécurité.",
+    "installations": "Installations",
+    "bullet": "• Balançoires\n• Toboggans\n• Trampoline\n• Tyrolienne pour enfants\n• Vélos pour enfants\n• Pétanque\n• Location de vélos (Supplément)"
+  },
+  "section4xoutdoor": {
+    "title": "Espace de Vie Extérieur",
+    "subtitle": "Profitez du charme de la vie en plein air avec des soirées douillettes près du feu, des repas en plein air, et des moments de détente sur notre magnifique terrasse jardin.",
+    "content": "Vivez l'apogée du luxe extérieur autour de notre superbe piscine et de notre jardin verdoyant.\n\nCet espace spacieux est conçu pour la détente et le divertissement, avec des installations de barbecue et une grande table à manger idéale pour les repas en plein air. Le mobilier extérieur confortable, les chaises longues, et le solarium vous invitent à vous détendre et à profiter du soleil.\n\nÀ la tombée de la nuit, rassemblez-vous autour de la cheminée extérieure pour une ambiance chaleureuse, faisant de cet espace l'endroit idéal pour profiter de la beauté et de la tranquillité environnantes.",
+    "installations": "Installations",
+    "bullet": "• Terrasse\n• Cheminée extérieure\n• Mobilier d'extérieur\n• Solarium\n• Équipements de barbecue (Supplément)\n• Jardin"
+  },
+  "section5": {
+    "title": "Visite Virtuelle",
+    "main": "Espace Principal",
+    "main1f": "Espace Principal 1F",
+    "guest": "Suite d'invités",
+    "basement": "Sous-Sol",
+    "outdoor": "Extérieur"
+  },
+  "section6": {
+    "title": "Plan d'étage",
+    "ground": "Rez-de-chaussée",
+    "psgl": "Suite Premium GL",
+    "ps1f": "Suite Premium 1F",
+    "gs": "Suite d’invités",
+    "basement": "Sous-sol"
   }
 }

@@ -125,5 +125,80 @@
     "content": "The guest house boasts a modern and fully equipped kitchen, designed for convenience and style. This sophisticated space features high-end appliances, ample counter space, and all the essentials you need to prepare gourmet meals. \n\nThe adjacent dining area, with its elegant design and comfortable seating, is perfect for enjoying meals with family and friends. Large windows provide plenty of natural light, creating a warm and inviting atmosphere. Whether you're preparing a quick breakfast or a lavish dinner, the kitchen and dining area in the guest house offer a delightful culinary experience.",
     "installations": "Installations",
     "bullet": "• 6-seater dining table\n• Dishes and silverware\n• Refrigerator\n• Oven\n• Coffee maker\n• Cooking basics (Pots and pans, oil, salt and pepper)\n• Dishwasher\n• Window door leading to the backyard\n• Microwave\n• Nespresso coffee machine"
+  },
+  "section4": {
+    "title": "Exclusive Amenities",
+    "theater": "Movie Theater",
+    "playroom": "Playroom",
+    "spa": "Spa & Wellness",
+    "gym": "Gym",
+    "pool": "Swimming Pool",
+    "playground": "Playground",
+    "outdoor": "Outdoor Living Space"
+  },
+  "section4xtheater": {
+    "title": "Private Home Cinema",
+    "subtitle": "Experience cinematic luxury in our private home cinema, where every detail is designed for your utmost comfort and enjoyment.",
+    "content": "The stars sky ceiling creates an enchanting atmosphere, transporting you to a celestial world as you watch your favorite films. A state-of-the-art projector and immersive home cinema sound system ensure a top-tier viewing experience. \n\nSink into the laid-back, extendable sofas, which offer adjustable comfort to relax at any angle. This dedicated movie theatre promises an unparalleled entertainment experience in the privacy of your villa.",
+    "installations": "Installations",
+    "bullet": "• Projector\n• Projector Screen\n• Sound System\n• Couch\n• Wifi is available in all areas and is free of charge."
+  },
+  "section4xplayroom": {
+    "title": "Playroom",
+    "subtitle": "Unleash your inner child in our vibrant Playroom, fun for kids and adults alike!",
+    "content": "Step into our ultimate playroom paradise, designed to delight guests of all ages. This vibrant space is equipped with a billiard table, darts, arcade games, foosball, air hockey, puzzles, and a selection of toys and board games. \n\nA TV with internet access ensures endless entertainment options. Ideal for birthday celebrations or simply letting the kids enjoy themselves, this playroom is truly a haven for fun. \n\nOutside, a terrace with synthetic grass offers additional space for friendly outdoor games like football or basketball , ensuring hours of active play and enjoyment.",
+    "installations": "Installations",
+    "bullet": "• Table tennis\n• Darts\n• Billiards\n• Children Toys\n• Board games/puzzles\n• Arcade Games\n• Air hockey\n• Footbal Table"
+  },
+  "section4xspa": {
+    "title": "Wellness Escape",
+    "subtitle": "Indulge in a serene oasis where tranquility meets luxury, allowing your mind, body, and soul to rejuvenate in perfect harmony.",
+    "content": "Indulge in ultimate relaxation at our spa and wellness sanctuary. Unwind in the rejuvenating warmth of our sauna, designed to detoxify and invigorate your senses. Soothe your muscles and mind in our luxurious jacuzzi, offering a serene escape from everyday stress. Every element of our wellness area is crafted to provide a tranquil and restorative experience, ensuring you leave feeling refreshed and revitalized.",
+    "installations": "Installations",
+    "bullet": "• Spa facilities\n• Massage chair\n• Hot tub/Jacuzzi\n• Sauna"
+  },
+  "section4xgym": {
+    "title": "State-of-the-Art Gym",
+    "subtitle": "Step into our cutting-edge home gym, where sleek design meets top-tier equipment, creating the ultimate space for invigorating workouts and personal wellness.",
+    "content": "Our well-appointed gym offers everything you need to maintain your fitness routine during your stay. \n\nEquipped with a variety of fitness machines, free weights, and yoga mats, it caters to all workout preferences. Large windows provide a stunning view of the pool, allowing you to do cardio while taking in the serene water vistas. \n\nWith modern amenities and a thoughtfully designed layout, this gym ensures a comfortable and effective exercise experience.",
+    "installations": "Installations",
+    "bullet": "• Fitness Wheel\n• Rowing Machine\n• Kettlebell set\n• Multi-grip pull-up bars\n• Dual Adjustable Pulley\n• bench press\n• MMA Boxing Speed Trainer Punching Spinning Bar with Dual Punch Head"
+  },
+  "section4xpool": {
+    "title": "Mirror Infinity Pool",
+    "subtitle": "Escape to serenity at our tranquil oasis, where the shimmering waters of our private swimming pool beckon you to unwind and soak up the sun in luxurious comfort.",
+    "content": "Immerse yourself in the splendor of our magnificent 15x5m mirror infinity pool, the epitome of elegance and relaxation. This stunning pool features a unique design where water cascades seamlessly over the edges, creating a captivating visual effect and a sense of boundless tranquility. \n\nTreated with salt water, it offers a gentler and more skin-friendly alternative to traditional chlorine treatments. \n\nA shallow area, only 45cm deep, is perfect for children to safely enjoy, while a beautiful fountain adds to the serene ambiance. Positioned to offer breathtaking views of the surrounding landscape, our infinity pool promises a luxurious and serene swimming experience for all ages.",
+    "installations": "Installations",
+    "bullet": "• Mirror Infinity pool\n• Saltwater pool\n• Graceful Fountain element\n• Swimming pool toys\n• Beach chairs/Loungers\n• Beach umbrellas"
+  },
+  "section4xplayground": {
+    "title": "Outdoor Playground",
+    "subtitle": "Unleash joy and adventure at our vibrant playground area, where laughter and imagination come to life.",
+    "content": "Delight in the vibrant outdoor playground, a paradise for children filled with exciting activities. Featuring sliders, turnstile roundabout, a swing set designed for toddlers and kids, a climbing rope, and a trampoline, this play area promises endless fun and adventure. For the more daring, a thrilling zip line adds an extra element of excitement. Enjoy the inflatable clear ball for walking on water, offering a unique and fun zorb experience. \n\nA pétanque field provides a classic outdoor game for all ages to enjoy.\n\nEvery aspect of our playground is crafted to ensure safety and enjoyment, making it the perfect spot for all ages to explore and play in lively environment.",
+    "installations": "Installations",
+    "bullet": "• Swings\n• Slides\n• Tranmpoline\n• Children Zipline\n• Children’s bikes\n• Petanque\n• Bicycle rental (Additional charge)"
+  },
+  "section4xoutdoor": {
+    "title": "Outdoor Living Space",
+    "subtitle": "Embrace the charm of outdoor living with cozy evenings by the fire, al fresco dining, and leisurely moments in our beautiful garden terrace.",
+    "content": "Experience the epitome of outdoor luxury around our stunning swimming pool and lush garden. \n\nThis expansive area is designed for relaxation and entertainment, featuring barbecue facilities and a large dining table perfect for alfresco meals. Comfortable outdoor furniture, lounge chairs, and a sun deck invite you to unwind and soak up the sun. \n\nAs evening falls, gather around the outdoor fireplace for a cozy ambiance, making this the ultimate space for enjoying the beauty and tranquility of your surroundings.",
+    "installations": "Installations",
+    "bullet": "• Terrasse\n• Outdoor fireplace\n• Outdoor furniture\n• Sun deck\n• BBQ facilities (Additional charge)\n• Garden"
+  },
+  "section5": {
+    "title": "Virtual Tour",
+    "main": "Main Area",
+    "main1f": "Main 1F Area",
+    "guest": "Guest Area",
+    "basement": "Basement",
+    "outdoor": "Outdoor"
+  },
+  "section6": {
+    "title": "Floor Plan",
+    "ground": "Ground Floor",
+    "psgl": "Premium Suite GL",
+    "ps1f": "Premium Suite 1F",
+    "gs": "Guest Suite",
+    "basement": "Basement"
   }
 }
