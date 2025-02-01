@@ -1,18 +1,18 @@
 {
   "section1": {
-    "title": "Information",
-    "surface": "",
-    "parking": "",
-    "internet": "",
-    "leftwing": "",
-    "basement": "",
-    "rightwing": ""
+    "title": "Informations",
+    "surface": "Surface\nIntérieur : 450m²\nExtérieur : Jardin de 4500m²",
+    "parking": "Parking\nParking pour 15 voitures",
+    "internet": "Internet\nWifi disponible dans toutes les zones",
+    "leftwing": "Aile Gauche\n• 3 Chambres (Violet, Peony, Orchid)\n• Salon\n• Cuisine & Salle à Manger",
+    "basement": "Sous-Sol\n• 1 Chambre (Lilac)\n• Salle de Jeux\n• Cinéma Privé",
+    "rightwing": "Aile Droite\n• Chambre Premium\n• Chambre Enfants\n• Espace de Travail\n• Salon\n• Cuisine & Salle à Manger"
   },
   "section2": {
-    "title": "Where is La brise Provençale located ?",
+    "title": "Où se trouve La Brise Provençale ?",
     "address": "126 IMPASSE DES SACQUETONS, 83440 Saint-Paul-en-Forêt, Provence-Alpes-Côte d'Azur, France",
-    "attractions": "Explore Nearby Attractions",
-    "toknow": "Things to know"
+    "attractions": "Découvrez les attractions à proximité ",
+    "toknow": "Ce qu’il faut savoir"
   },
   "section2xattractions": {
     "title": "Attractions",
@@ -28,14 +28,14 @@
     "5km": "19 km"
   },
   "section2xtransit": {
-    "title": "Public transit",
+    "title": "Transports en commun",
     "1": "Train  •  Fréjus",
     "1km": "42 min",
     "2": "Train  •  Fréjus Autotrain by cannes",
     "2km": "44 min"
   },
   "section2xresto": {
-    "title": "Restaurants & cafes",
+    "title": "Restaurants & Cafés",
     "1": "Restaurant  •  Au Bec Fin",
     "1km": "2.2 km",
     "2": "Restaurant  •  Le France",
@@ -54,16 +54,16 @@
     "8km": "22.8 km"
   },
   "section2xairport": {
-    "title": "Closest Airports",
-    "1": "Cannes – Mandelieu Airport",
+    "title": "Aéroports les plus proches",
+    "1": "Aéroport de Cannes – Mandelieu",
     "1km": "21 km",
-    "2": "Nice Côte d'Azur Airport",
+    "2": "Aéroport Nice Côte d'Azur",
     "2km": "42 km",
-    "3": "Toulon - Hyeres Airport",
+    "3": "Aéroport de Toulon - Hyères",
     "3km": "67 km"
   },
   "section2xski": {
-    "title": "Ski lifts",
+    "title": "Remontées Mécaniques",
     "1": "Parc Mouliere Ski Lift",
     "1km": "20 km",
     "2": "Lavandes",
@@ -72,27 +72,27 @@
     "3km": "20 km"
   },
   "section3xchecking": {
-    "title": "Checking in and out",
-    "content": "Check-in after 3:00 PM\nCheckout before 12:00 PM"
+    "title": "Arrivée et départ",
+    "content": "Arrivée après 3:00 PM\nDépart avant 12:00 PM"
   },
   "section3xquiethours": {
-    "title": "Quiet Hours",
+    "title": "Période de calme",
     "content": "10:00 PM - 8:00 AM"
   },
   "section3xnotallowed": {
-    "title": "Quiet Hours",
-    "content": "No commercial photography\nNo smoking\nNo pets"
+    "title": "Interdictions",
+    "content": "Pas de photographie commerciale\nInterdiction de fumer\nAnimaux non autorisés"
   },
   "section3xevents": {
-    "title": "Events & Parties",
-    "content": "we have a separate rate policy for events. \nPlease contact us for details and to discuss your specific needs."
+    "title": "Événements & fêtes",
+    "content": "Nous avons une politique tarifaire distincte pour les événements.\nVeuillez nous contacter pour plus de détails et discuter de vos besoins spécifiques."
   },
   "section3xsafety": {
-    "title": "Safety Considerations",
-    "content": "Pool/hot tub without a gate or lock\nClimbing or play structure\nMust climb stairs"
+    "title": "Considérations de sécurité",
+    "content": "Piscine/jacuzzi sans barrière ni verrou0\nStructure d'escalade ou de jeu0\nEscaliers à monter"
   },
   "section3xdevices": {
-    "title": "Safety Devices",
-    "content": "Smoke alarm installed\nCarbon monoxide alarm installed\nExterior security cameras on property\n• “Pool, backyard, main entrance”"
+    "title": "Dispositifs de sécurité",
+    "content": "Alarme incendie installée\nDétecteur de monoxyde de carbone installé\nCaméras de sécurité extérieures sur la propriété\n• Piscine, jardin, entrée principale"
   }
 }

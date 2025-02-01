@@ -1,98 +1,98 @@
 {
   "section1": {
-    "title": "Information",
-    "surface": "",
-    "parking": "",
-    "internet": "",
-    "leftwing": "",
-    "basement": "",
-    "rightwing": ""
+    "title": "信息",
+    "surface": "面积\n室内：450m²\n室外：4500m²花园",
+    "parking": "停车\n可容纳15辆车的停车场",
+    "internet": "互联网\n所有区域均提供免费Wi-Fi",
+    "leftwing": "左翼\n3间卧室（紫罗兰、牡丹、兰花）\n• 客厅\n• 厨房 & 餐厅",
+    "basement": "地下室\n1间卧室（丁香）\n• 游戏室\n• 影院",
+    "rightwing": "右翼\n豪华卧室\n• 儿童卧室\n• 工作区\n• 客厅\n• 厨房 & 餐厅"
   },
   "section2": {
-    "title": "Where is La brise Provençale located ?",
+    "title": "La Brise Provençale 位于哪里？",
     "address": "126 IMPASSE DES SACQUETONS, 83440 Saint-Paul-en-Forêt, Provence-Alpes-Côte d'Azur, France",
-    "attractions": "Explore Nearby Attractions",
-    "toknow": "Things to know"
+    "attractions": "探索附近景点",
+    "toknow": "须知事项"
   },
   "section2xattractions": {
-    "title": "Attractions",
-    "1": "Paca Adventure",
-    "1km": "13 km",
-    "2": "Parc Naturel Regional du Verdon",
-    "2km": "15 km",
-    "3": "Parc Chabran",
-    "3km": "17 km",
-    "4": "Parc Naturel Régional des Préalpes d'Azur",
-    "4km": "18 km",
-    "5": "Parc Chabran",
-    "5km": "19 km"
+    "title": "景点",
+    "1": "Paca 冒险公园",
+    "1km": "13 公里",
+    "2": "韦尔东自然公园",
+    "2km": "15 公里",
+    "3": "夏布兰公园",
+    "3km": "17 公里",
+    "4": "阿祖尔前阿尔卑斯自然公园",
+    "4km": "18 公里",
+    "5": "夏布兰公园",
+    "5km": "19 公里"
   },
   "section2xtransit": {
-    "title": "Public transit",
-    "1": "Train  •  Fréjus",
-    "1km": "42 min",
-    "2": "Train  •  Fréjus Autotrain by cannes",
-    "2km": "44 min"
+    "title": "公共交通",
+    "1": "火车站 • Fréjus",
+    "1km": "42 分钟",
+    "2": "火车站 • Fréjus Autotrain by cannes",
+    "2km": "44 分钟"
   },
   "section2xresto": {
-    "title": "Restaurants & cafes",
-    "1": "Restaurant  •  Au Bec Fin",
-    "1km": "2.2 km",
-    "2": "Restaurant  •  Le France",
-    "2km": "6.8 km",
-    "3": "Restaurant  •  Le Bis",
-    "3km": "5.2 km",
-    "4": "Restaurant  •  Le Temps Des Cerises",
+    "title": "餐厅和咖啡馆",
+    "1": "餐厅  •  Au Bec Fin",
+    "1km": "2.2 公里",
+    "2": "餐厅  •  Le France",
+    "2km": "6.8 公里",
+    "3": "餐厅  •  Le Bis",
+    "3km": "5.2 公里",
+    "4": "餐厅  •  Le Temps Des Cerises",
     "4km": "6.7 Km",
-    "5": "Restaurant  •  L'ECHAPPEE BELLE",
+    "5": "餐厅  •  L'ECHAPPEE BELLE",
     "5km": "3.8 Km",
-    "6": "Cafe  •  Linly'S Café",
-    "6km": "7.1 km",
-    "7": "Cafe  •  Mistral Cafe / Bistro",
-    "7km": "6.7 km",
-    "8": "Cafe  •  Café Lions",
-    "8km": "22.8 km"
+    "6": "咖啡馆  •  Linly'S Café",
+    "6km": "7.1 公里",
+    "7": "咖啡馆  •  Mistral Cafe / Bistro",
+    "7km": "6.7 公里",
+    "8": "咖啡馆  •  Café Lions",
+    "8km": "22.8 公里"
   },
   "section2xairport": {
-    "title": "Closest Airports",
-    "1": "Cannes – Mandelieu Airport",
-    "1km": "21 km",
-    "2": "Nice Côte d'Azur Airport",
-    "2km": "42 km",
-    "3": "Toulon - Hyeres Airport",
-    "3km": "67 km"
+    "title": "最近的机场",
+    "1": "戛纳-芒德琉机场",
+    "1km": "21 公里",
+    "2": "尼斯蔚蓝海岸机场",
+    "2km": "42 公里",
+    "3": "土伦-耶尔机场",
+    "3km": "67 公里"
   },
   "section2xski": {
-    "title": "Ski lifts",
-    "1": "Parc Mouliere Ski Lift",
-    "1km": "20 km",
+    "title": "滑雪缆车",
+    "1": "Mouliere 滑雪缆车",
+    "1km": "20 公里",
     "2": "Lavandes",
-    "2km": "20 km",
+    "2km": "20 公里",
     "3": "Signal",
-    "3km": "20 km"
+    "3km": "20 公里"
   },
   "section3xchecking": {
-    "title": "Checking in and out",
-    "content": "Check-in after 3:00 PM\nCheckout before 12:00 PM"
+    "title": "入住和退房",
+    "content": "入住时间：下午 3:00 之后\n退房时间：中午 12:00 之前"
   },
   "section3xquiethours": {
-    "title": "Quiet Hours",
-    "content": "10:00 PM - 8:00 AM"
+    "title": "安静时段",
+    "content": "晚上 10:00 - 早上 8:00"
   },
   "section3xnotallowed": {
-    "title": "Quiet Hours",
-    "content": "No commercial photography\nNo smoking\nNo pets"
+    "title": "禁止事项",
+    "content": "禁止商业摄影\n禁止吸烟\n禁止携带宠物"
   },
   "section3xevents": {
-    "title": "Events & Parties",
-    "content": "we have a separate rate policy for events. \nPlease contact us for details and to discuss your specific needs."
+    "title": "活动与聚会",
+    "content": "我们针对活动有单独的价格政策。\n请联系我们了解详情并讨论您的具体需求。"
   },
   "section3xsafety": {
-    "title": "Safety Considerations",
-    "content": "Pool/hot tub without a gate or lock\nClimbing or play structure\nMust climb stairs"
+    "title": "安全注意事项",
+    "content": "游泳池/热水浴池无栅栏或锁\n攀爬或游乐设施\n需要爬楼梯"
   },
   "section3xdevices": {
-    "title": "Safety Devices",
-    "content": "Smoke alarm installed\nCarbon monoxide alarm installed\nExterior security cameras on property\n• “Pool, backyard, main entrance”"
+    "title": "安全设备s",
+    "content": "安装了烟雾报警器\n安装了一氧化碳报警器\n物业外部安装了安全摄像头\n• “泳池、后院、主入口”"
   }
 }
