@@ -1,0 +1,98 @@
+{
+  "section1": {
+    "title": "Information",
+    "surface": "Surface\nInterior : 450m²\nExterior : 4500m² garden",
+    "parking": "Parking\nParking lot for 15 cars",
+    "internet": "Internet\nWifi is available in all areas",
+    "leftwing": "Left Wing\n• 3 Bedrooms (Violet, Peony, Orchid)\n• Living Room\n• Kitchen & Dining",
+    "basement": "Basement\n• 1 Bedroom (Lilac)\n• Playroom\n• Home Cinema",
+    "rightwing": "Right Wing\n• Premium Bedroom\n• Children Bedroom\n• Workspace\n• Living Room\n• Kitchen & Dining"
+  },
+  "section2": {
+    "title": "Where is La brise Provençale located ?",
+    "address": "126 IMPASSE DES SACQUETONS, 83440 Saint-Paul-en-Forêt, Provence-Alpes-Côte d'Azur, France",
+    "attractions": "Explore Nearby Attractions",
+    "toknow": "Things to know"
+  },
+  "section2xattractions": {
+    "title": "Attractions",
+    "1": "Paca Adventure",
+    "1km": "13 km",
+    "2": "Parc Naturel Regional du Verdon",
+    "2km": "15 km",
+    "3": "Parc Chabran",
+    "3km": "17 km",
+    "4": "Parc Naturel Régional des Préalpes d'Azur",
+    "4km": "18 km",
+    "5": "Parc Chabran",
+    "5km": "19 km"
+  },
+  "section2xtransit": {
+    "title": "Public transit",
+    "1": "Train  •  Fréjus",
+    "1km": "42 min",
+    "2": "Train  •  Fréjus Autotrain by cannes",
+    "2km": "44 min"
+  },
+  "section2xresto": {
+    "title": "Restaurants & cafes",
+    "1": "Restaurant  •  Au Bec Fin",
+    "1km": "2.2 km",
+    "2": "Restaurant  •  Le France",
+    "2km": "6.8 km",
+    "3": "Restaurant  •  Le Bis",
+    "3km": "5.2 km",
+    "4": "Restaurant  •  Le Temps Des Cerises",
+    "4km": "6.7 Km",
+    "5": "Restaurant  •  L'ECHAPPEE BELLE",
+    "5km": "3.8 Km",
+    "6": "Cafe  •  Linly'S Café",
+    "6km": "7.1 km",
+    "7": "Cafe  •  Mistral Cafe / Bistro",
+    "7km": "6.7 km",
+    "8": "Cafe  •  Café Lions",
+    "8km": "22.8 km"
+  },
+  "section2xairport": {
+    "title": "Closest Airports",
+    "1": "Cannes – Mandelieu Airport",
+    "1km": "21 km",
+    "2": "Nice Côte d'Azur Airport",
+    "2km": "42 km",
+    "3": "Toulon - Hyeres Airport",
+    "3km": "67 km"
+  },
+  "section2xski": {
+    "title": "Ski lifts",
+    "1": "Parc Mouliere Ski Lift",
+    "1km": "20 km",
+    "2": "Lavandes",
+    "2km": "20 km",
+    "3": "Signal",
+    "3km": "20 km"
+  },
+  "section3xchecking": {
+    "title": "Checking in and out",
+    "content": "Check-in after 3:00 PM\nCheckout before 12:00 PM"
+  },
+  "section3xquiethours": {
+    "title": "Quiet Hours",
+    "content": "10:00 PM - 8:00 AM"
+  },
+  "section3xnotallowed": {
+    "title": "Quiet Hours",
+    "content": "No commercial photography\nNo smoking\nNo pets"
+  },
+  "section3xevents": {
+    "title": "Events & Parties",
+    "content": "we have a separate rate policy for events. \nPlease contact us for details and to discuss your specific needs."
+  },
+  "section3xsafety": {
+    "title": "Safety Considerations",
+    "content": "Pool/hot tub without a gate or lock\nClimbing or play structure\nMust climb stairs"
+  },
+  "section3xdevices": {
+    "title": "Safety Devices",
+    "content": "Smoke alarm installed\nCarbon monoxide alarm installed\nExterior security cameras on property\n• “Pool, backyard, main entrance”"
+  }
+}
