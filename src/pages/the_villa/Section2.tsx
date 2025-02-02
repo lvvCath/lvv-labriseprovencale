@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Section2.css";
 import GetText from "../../components/TextExtractor";
+import ImageFadeIn from "../../components/ImageFadeIn";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container, Row, Col, Modal, Carousel } from "react-bootstrap";
 import divider from "../../assets/icon/divider1.png";
@@ -95,10 +96,10 @@ function Section2() {
 
       <div className="content-section">
         {/* Room Image */}
-        <img
-          className="img-title-s2"
+        <ImageFadeIn
           src={`src/assets/images/thevilla/section2x1x${selectedNav}.jpeg`}
-          alt="profile image"
+          alt="Portrait"
+          className="img-title-s2"
         />
 
         {/* Room Title */}

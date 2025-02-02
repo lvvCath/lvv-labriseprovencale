@@ -1,0 +1,18 @@
+{
+  "section1": {
+    "title": "Contact Us",
+    "number": "+06 71 19 44 37",
+    "email": "la.brise.provencale@gmail.com",
+    "address": "126 Impasse Des Sacquetons, 83440 Saint-Paul-en-Forêt, France"
+  },
+  "section2": {
+    "title": "Meet your Host",
+    "message": "We're delighted to welcome you to La Brise Provençale. Inspired by enchanting accommodations we've encountered in our travels, we've created a haven designed especially for families. Our vacation rental is infused with thoughtful design and unexpected delights to make your stay truly unforgettable. We hope you enjoy discovering the charm and beauty of our area.",
+    "sincerly": "Sincerly,",
+    "host": "Joanna"
+  },
+  "section3": {
+    "title": "Book with us",
+    "message": "Choose your preferred booking platform to reserve your stay at La Brise Provençale. We are listed on various reputable websites, offering you the convenience and flexibility to book through the platform you trust most. Explore your options and secure your dream vacation today!"
+  }
+}

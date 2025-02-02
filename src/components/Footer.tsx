@@ -14,6 +14,9 @@ import {
 
 function Footer() {
   const { language } = useLanguage();
+  const socials = [
+    "https://www.facebook.com/share/15Ks9F9rTi/?mibextid=LQQJ4d",
+  ];
 
   return (
     <Container fluid className="footer-container">
@@ -77,9 +80,27 @@ function Footer() {
       </Row>
 
       <div className="social-icons">
-        <FaFacebookSquare className="social-icon" />
-        <FaInstagram className="social-icon" />
-        <FaTiktok className="social-icon" />
+        <a
+          href="https://www.facebook.com/share/15Ks9F9rTi/?mibextid=LQQJ4d"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaFacebookSquare className="social-icon" />
+        </a>
+        {/* <a
+          href="https://www.instagram.com/YOUR_PAGE"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram className="social-icon" />
+        </a>
+        <a
+          href="https://www.tiktok.com/@YOUR_PAGE"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaTiktok className="social-icon" />
+        </a> */}
       </div>
 
       <span className="footer-divider"></span>

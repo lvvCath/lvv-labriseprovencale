@@ -9,6 +9,7 @@ import section4x3 from "../../assets/images/homepage/section4x3.jpeg";
 
 function Section4() {
   const { language } = useLanguage();
+  const links = ["/thevilla", "/guesthouse", "/information"];
 
   return (
     <Container fluid className="section4-container">
@@ -36,7 +37,7 @@ function Section4() {
             key={`section4-image-${index}`}
           >
             <div className="s4-image-container">
-              <a href="/your-target-page" className="s4-image-link">
+              <a href={links[index]} className="s4-image-link">
                 <ImageFadeIn src={src} alt="Portrait" className="s4-image" />
                 <div className="s4-overlay">
                   <p className="body-text-dark">

@@ -1,4 +1,5 @@
 import GetText from "../../components/TextExtractor";
+import ImageFadeIn from "../../components/ImageFadeIn";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Section2.css";
@@ -57,9 +58,9 @@ function Section2() {
       <Row className="align-items-center half-viewport">
         <Col xs={12} md={6} className="image-column">
           <div className="image1-bg">
-            <img
+            <ImageFadeIn
               src={row1Sections[currentRow1]}
-              alt=""
+              alt="Portrait"
               className="section-image1"
             />
           </div>
@@ -140,9 +141,9 @@ function Section2() {
         </Col>
         <Col xs={12} md={6} className="image-column">
           <div className="image2-bg">
-            <img
+            <ImageFadeIn
               src={row2Sections[currentRow2]}
-              alt=""
+              alt="Portrait"
               className="section-image2"
             />
           </div>

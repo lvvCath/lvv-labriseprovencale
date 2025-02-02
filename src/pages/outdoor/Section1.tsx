@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Section1.css";
 import GetText from "../../components/TextExtractor";
+import ImageFadeIn from "../../components/ImageFadeIn";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container, Row, Col, Modal, Carousel } from "react-bootstrap";
 import divider from "../../assets/icon/divider1.png";
@@ -85,9 +86,9 @@ function Section1() {
           </Col>
           <Col lg={7}>
             <div className="img-title">
-              <img
+              <ImageFadeIn
                 src={`src/assets/images/amenities/${selectedNav}/1.jpeg`}
-                alt=""
+                alt="Portrait"
               />
             </div>
           </Col>
