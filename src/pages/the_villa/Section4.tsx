@@ -46,7 +46,7 @@ function Section4() {
           {navItems.slice(0, 4).map((item) => (
             <Col xs={6} s={5} md={3} lg={3} className="btns">
               <img
-                src={`src/assets/icon/amenities-${item.id}.svg`}
+                src={`assets/icon/amenities-${item.id}.svg`}
                 alt={item.id}
                 className="btn-img"
               />
@@ -73,7 +73,7 @@ function Section4() {
           {navItems.slice(4, 7).map((item) => (
             <Col xs={6} s={6} md={4} lg={4} className="btns">
               <img
-                src={`src/assets/icon/amenities-${item.id}.svg`}
+                src={`assets/icon/amenities-${item.id}.svg`}
                 alt={item.id}
                 className="btn-img"
               />
@@ -125,7 +125,7 @@ function Section4() {
           <Col lg={7}>
             <div className="img-title">
               <ImageFadeIn
-                src={`src/assets/images/amenities/${selectedNav}/1.jpeg`}
+                src={`assets/images/amenities/${selectedNav}/1.jpeg`}
                 alt="Portrait"
               />
             </div>
@@ -142,7 +142,7 @@ function Section4() {
                 onClick={() => handleImageClick()}
               >
                 <img
-                  src={`src/assets/images/amenities/${selectedNav}/${num}.jpeg`}
+                  src={`assets/images/amenities/${selectedNav}/${num}.jpeg`}
                   alt=""
                   className="image"
                 />
@@ -214,7 +214,7 @@ function Section4() {
                   <Carousel.Item>
                     <div className="modal-image">
                       <img
-                        src={`src/assets/images/amenities/${selectedNav}/${num}.jpeg`}
+                        src={`assets/images/amenities/${selectedNav}/${num}.jpeg`}
                         alt=""
                       />
                     </div>

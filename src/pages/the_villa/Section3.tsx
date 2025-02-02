@@ -73,7 +73,7 @@ function Section3() {
               onClick={() => handleImageClick()}
             >
               <img
-                src={`src/assets/images/guesthouse/${selectedNav}/${num}.jpeg`}
+                src={`assets/images/guesthouse/${selectedNav}/${num}.jpeg`}
                 alt=""
                 className="image"
               />
@@ -208,7 +208,7 @@ function Section3() {
                 <Carousel.Item>
                   <div className="modal-image">
                     <img
-                      src={`src/assets/images/guesthouse/${selectedNav}/${num}.jpeg`}
+                      src={`assets/images/guesthouse/${selectedNav}/${num}.jpeg`}
                       alt=""
                     />
                   </div>

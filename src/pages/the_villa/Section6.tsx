@@ -64,7 +64,7 @@ function Section6({ page }: Section6Props) {
       </Row>
       <Row className="content-section">
         <img
-          src={`src/assets/images/floorplan/${language}/${selectedNav}.png`}
+          src={`assets/images/floorplan/${language}/${selectedNav}.png`}
           alt=""
         />
       </Row>

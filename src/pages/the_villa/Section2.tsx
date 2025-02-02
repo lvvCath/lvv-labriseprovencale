@@ -97,7 +97,7 @@ function Section2() {
       <div className="content-section">
         {/* Room Image */}
         <ImageFadeIn
-          src={`src/assets/images/thevilla/section2x1x${selectedNav}.jpeg`}
+          src={`assets/images/thevilla/section2x1x${selectedNav}.jpeg`}
           alt="Portrait"
           className="img-title-s2"
         />
@@ -134,7 +134,7 @@ function Section2() {
                 onClick={() => handleImageClick()}
               >
                 <img
-                  src={`src/assets/images/thevilla/${selectedNav}/${num}.jpeg`}
+                  src={`assets/images/thevilla/${selectedNav}/${num}.jpeg`}
                   alt=""
                   className="image"
                 />
@@ -253,7 +253,7 @@ function Section2() {
                 <Carousel.Item>
                   <div className="modal-image">
                     <img
-                      src={`src/assets/images/thevilla/${selectedNav}/${num}.jpeg`}
+                      src={`assets/images/thevilla/${selectedNav}/${num}.jpeg`}
                       alt=""
                     />
                   </div>
