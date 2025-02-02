@@ -32,7 +32,7 @@
 
 .reviews-container {
     width: 90%;
-    max-width: 40%;
+    max-width: 50%;
     min-height: 70%;
     z-index: 2;
     margin: 4rem 0;
@@ -120,13 +120,23 @@
 
 /* Responsive adjustments */
 
-@media (max-width: 576px) {
-    .s5-title {
-        font-size: var(--h1-font-size);
+@media (max-width: 768px) {
+    .reviews-container {
+        max-width: 60%;
+        padding: 4rem;
+    }
+
+    .label5-container {
+        width: 65%;
     }
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
+
+    .s5-title {
+        font-size: var(--h1-font-size);
+    }
+
     .reviews-container {
         max-width: 70%;
         padding: 2.5rem;
@@ -139,16 +149,5 @@
 
     .label5-container {
         width: 70%;
-    }
-}
-
-@media (min-width: 768px) {
-    .reviews-container {
-        max-width: 70%;
-        padding: 4rem;
-    }
-
-    .label5-container {
-        width: 65%;
     }
 }
