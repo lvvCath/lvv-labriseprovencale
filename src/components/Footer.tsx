@@ -1,22 +1,12 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
 import GetText from "./TextExtractor";
 import { useLanguage } from "./LanguageContext";
 import logo from "../assets/icon/logo.png";
-import {
-  FaFacebookSquare,
-  FaInstagram,
-  FaTiktok,
-  FaEnvelope,
-  FaMapMarkerAlt,
-} from "react-icons/fa";
+import { FaFacebookSquare, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 function Footer() {
   const { language } = useLanguage();
-  const socials = [
-    "https://www.facebook.com/share/15Ks9F9rTi/?mibextid=LQQJ4d",
-  ];
 
   return (
     <Container fluid className="footer-container">
