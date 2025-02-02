@@ -6,7 +6,13 @@ import Section4 from "../the_villa/Section5";
 import Section5 from "../the_villa/Section6";
 import Footer from "../../components/Footer";
 
+import { useEffect } from "react";
+
 export function GuestHouse() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
     <div>
       <Section0 page={"guesthouse"} />

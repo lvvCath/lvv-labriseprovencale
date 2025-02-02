@@ -2,9 +2,14 @@ import Section1 from "./Section1";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
 import Footer from "../../components/Footer";
-// import Section0 from "./Section0";
+
+import { useEffect } from "react";
 
 export function ContactUs() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
     <div>
       {/* <Section0 /> */}
