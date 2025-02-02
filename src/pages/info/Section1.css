@@ -33,8 +33,7 @@
         margin-right: 0.5rem;
     }
 
-    .body-text-dark {
-        font-weight: 600;
+    .body-text-dark {font-weight: 600;
         color: var(--header-text-color-dark);
     }
 

@@ -14,7 +14,8 @@ function Section2() {
   const { language } = useLanguage();
   const mapSrc =
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1403.8623564216157!2d6.678844910492446!3d43.58577118450564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cea0bca840f2b5%3A0x3539073e86ef22b7!2s126%20Les%20Sacquetons%2C%2083440%20Saint-Paul-en-For%C3%AAt%2C%20France!5e0!3m2!1sen!2sph!4v1738340924526!5m2!1sen!2sph";
-  const attractions = [1, 2, 3, 4, 5];
+
+  const attractions = [1, 2, 3, 4];
   const transit = [1, 2];
   const resto = [1, 2, 3, 4, 5, 6, 7, 8];
   const airport = [1, 2, 3];
