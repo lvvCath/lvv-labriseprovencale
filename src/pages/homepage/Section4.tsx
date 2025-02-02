@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container, Row, Col } from "react-bootstrap";
@@ -29,6 +30,7 @@ function Section4() {
           <div className="diamond"></div>
         </span>
       </div>
+
       <Row className="body4-container">
         {[section4x1, section4x2, section4x3].map((src, index) => (
           <Col
@@ -37,7 +39,7 @@ function Section4() {
             key={`section4-image-${index}`}
           >
             <div className="s4-image-container">
-              <a href={links[index]} className="s4-image-link">
+              <Link to={links[index]} className="s4-image-link">
                 <ImageFadeIn src={src} alt="Portrait" className="s4-image" />
                 <div className="s4-overlay">
                   <p className="body-text-dark">
@@ -49,7 +51,7 @@ function Section4() {
                     />
                   </p>
                 </div>
-              </a>
+              </Link>
             </div>
 
             <h2 className="header-text-dark s4-col-title">
@@ -71,6 +73,7 @@ function Section4() {
           </Col>
         ))}
       </Row>
+
       <div className="s4-title-divider">
         <span className="line-with-diamond"></span>
       </div>
