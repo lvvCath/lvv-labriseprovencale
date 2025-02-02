@@ -2,7 +2,7 @@ import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container } from "react-bootstrap";
 import "./Section3.css";
-import S3Video from "../../assets/video/villa-tour.mp4";
+import S3Video from "/assets/video/villa-tour.mp4";
 
 function Section3() {
   const { language } = useLanguage();

@@ -2,7 +2,7 @@ import "./Section0.css";
 import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container } from "react-bootstrap";
-import divider from "../../assets/icon/divider1.png";
+import divider from "/assets/icon/divider1.png";
 
 type Section0Props = {
   page: string;

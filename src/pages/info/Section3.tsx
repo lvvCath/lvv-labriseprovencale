@@ -3,12 +3,12 @@ import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container, Row, Col } from "react-bootstrap";
 
-import info_checking from "../../assets/icon/info_checking.svg";
-import info_quiethours from "../../assets/icon/info_quiethours.svg";
-import info_notallowed from "../../assets/icon/info_notallowed.svg";
-import info_events from "../../assets/icon/info_events.svg";
-import info_safety from "../../assets/icon/info_safety.svg";
-import info_devices from "../../assets/icon/info_devices.svg";
+import info_checking from "/assets/icon/info_checking.svg";
+import info_quiethours from "/assets/icon/info_quiethours.svg";
+import info_notallowed from "/assets/icon/info_notallowed.svg";
+import info_events from "/assets/icon/info_events.svg";
+import info_safety from "/assets/icon/info_safety.svg";
+import info_devices from "/assets/icon/info_devices.svg";
 
 function Section2() {
   const { language } = useLanguage();

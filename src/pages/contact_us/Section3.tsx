@@ -5,10 +5,10 @@ import { useLanguage } from "../../components/LanguageContext";
 
 import { Container, Row, Col } from "react-bootstrap";
 
-import divider from "../../assets/icon/divider1.png";
+import divider from "/assets/icon/divider1.png";
 
-import section4x1 from "../../assets/icon/airbnb.png";
-import section4x2 from "../../assets/icon/booking.png";
+import section4x1 from "/assets/icon/airbnb.png";
+import section4x2 from "/assets/icon/booking.png";
 
 function Section3() {
   const { language } = useLanguage();

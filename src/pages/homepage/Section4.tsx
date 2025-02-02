@@ -4,9 +4,9 @@ import { useLanguage } from "../../components/LanguageContext";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Section4.css";
 import ImageFadeIn from "../../components/ImageFadeIn";
-import section4x1 from "../../assets/images/homepage/section4x1.jpeg";
-import section4x2 from "../../assets/images/homepage/section4x2.jpeg";
-import section4x3 from "../../assets/images/homepage/section4x3.jpeg";
+import section4x1 from "/assets/images/homepage/section4x1.jpeg";
+import section4x2 from "/assets/images/homepage/section4x2.jpeg";
+import section4x3 from "/assets/images/homepage/section4x3.jpeg";
 
 function Section4() {
   const { language } = useLanguage();

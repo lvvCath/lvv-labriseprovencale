@@ -3,10 +3,10 @@ import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container } from "react-bootstrap";
 
-import info_surface from "../../assets/icon/info-surface.svg";
-import info_parking from "../../assets/icon/info-parking.svg";
-import info_internet from "../../assets/icon/info-internet.svg";
-import info_home from "../../assets/icon/info-home.svg";
+import info_surface from "/assets/icon/info-surface.svg";
+import info_parking from "/assets/icon/info-parking.svg";
+import info_internet from "/assets/icon/info-internet.svg";
+import info_home from "/assets/icon/info-home.svg";
 
 const infoItems = [
   { icon: info_surface, field: "surface" },

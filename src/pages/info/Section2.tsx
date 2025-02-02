@@ -3,12 +3,12 @@ import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container, Row, Col } from "react-bootstrap";
 
-import info_address from "../../assets/icon/info_address.svg";
-import info_attraction from "../../assets/icon/info_attraction.svg";
-import info_transit from "../../assets/icon/info_transit.svg";
-import info_resto from "../../assets/icon/info_resto.svg";
-import info_airport from "../../assets/icon/info_airport.svg";
-import info_ski from "../../assets/icon/info_ski.svg";
+import info_address from "/assets/icon/info_address.svg";
+import info_attraction from "/assets/icon/info_attraction.svg";
+import info_transit from "/assets/icon/info_transit.svg";
+import info_resto from "/assets/icon/info_resto.svg";
+import info_airport from "/assets/icon/info_airport.svg";
+import info_ski from "/assets/icon/info_ski.svg";
 
 function Section2() {
   const { language } = useLanguage();

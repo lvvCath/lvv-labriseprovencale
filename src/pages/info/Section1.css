@@ -6,7 +6,7 @@
     width: 100%;
     overflow: hidden;
     background-color: #FEFEF6;
-    background-image: url('../../assets/images/thevilla/section0.jpeg');
+    background-image: url('/assets/images/thevilla/section0.jpeg');
     background-size: cover;
     background-position: center;
     position: relative;

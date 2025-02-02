@@ -55,13 +55,13 @@
 }
 
 .reviews-container::before {
-    background-image: url('../../assets/icon/quotation-mark-left.png');
+    background-image: url('/assets/icon/quotation-mark-left.png');
     top: -2rem;
     left: -3rem;
 }
 
 .reviews-container::after {
-    background-image: url('../../assets/icon/quotation-mark-right.png');
+    background-image: url('/assets/icon/quotation-mark-right.png');
     bottom: -2rem;
     right: -3rem;
 }

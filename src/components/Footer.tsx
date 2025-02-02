@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
 import GetText from "./TextExtractor";
 import { useLanguage } from "./LanguageContext";
-import logo from "../assets/icon/logo.png";
+import logo from "/assets/icon/logo.png";
 import { FaFacebookSquare, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 function Footer() {

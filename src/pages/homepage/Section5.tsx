@@ -3,15 +3,15 @@ import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container } from "react-bootstrap";
 import "./Section5.css";
-import divider from "../../assets/icon/review-stars.png";
-import airbnb from "../../assets/icon/airbnb.png";
-import booking from "../../assets/icon/booking.png";
-import arrowLeft from "../../assets/icon/arrow-left.svg";
-import arrowRight from "../../assets/icon/arrow-right.svg";
-import section5x1 from "../../assets/images/homepage/section5x1.jpg";
-import section5x2 from "../../assets/images/homepage/section5x2.jpg";
-import section5x3 from "../../assets/images/homepage/section5x3.jpg";
-import section5x4 from "../../assets/images/homepage/section5x4.jpg";
+import divider from "/assets/icon/review-stars.png";
+import airbnb from "/assets/icon/airbnb.png";
+import booking from "/assets/icon/booking.png";
+import arrowLeft from "/assets/icon/arrow-left.svg";
+import arrowRight from "/assets/icon/arrow-right.svg";
+import section5x1 from "/assets/images/homepage/section5x1.jpg";
+import section5x2 from "/assets/images/homepage/section5x2.jpg";
+import section5x3 from "/assets/images/homepage/section5x3.jpg";
+import section5x4 from "/assets/images/homepage/section5x4.jpg";
 
 function Section5() {
   const { language } = useLanguage();

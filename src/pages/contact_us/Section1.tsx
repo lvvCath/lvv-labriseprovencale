@@ -3,9 +3,9 @@ import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container, Row } from "react-bootstrap";
 
-import icon_whatsapp from "../../assets/icon/icon_whatsapp.svg";
-import icon_email from "../../assets/icon/icon_email.svg";
-import info_address from "../../assets/icon/info_address.svg";
+import icon_whatsapp from "/assets/icon/icon_whatsapp.svg";
+import icon_email from "/assets/icon/icon_email.svg";
+import info_address from "/assets/icon/info_address.svg";
 
 import { FaFacebookSquare } from "react-icons/fa";
 

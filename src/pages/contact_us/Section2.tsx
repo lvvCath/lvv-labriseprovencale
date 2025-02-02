@@ -4,7 +4,7 @@ import ImageFadeIn from "../../components/ImageFadeIn";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container, Row, Col } from "react-bootstrap";
 
-import host from "../../assets/images/contactus/Section2.png";
+import host from "/assets/images/contactus/Section2.png";
 
 function Section2() {
   const { language } = useLanguage();

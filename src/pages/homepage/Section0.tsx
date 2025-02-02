@@ -1,5 +1,5 @@
 import "./Section0.css";
-import HomepageVideo from "../../assets/video/Homepage.mp4";
+import HomepageVideo from "/assets/video/Homepage.mp4";
 
 function Section0() {
   return (

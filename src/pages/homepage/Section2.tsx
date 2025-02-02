@@ -5,16 +5,16 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./Section2.css";
 
 // Import all sections
-import section2x1x1 from "../../assets/images/homepage/section2x1x1.jpeg";
-import section2x1x2 from "../../assets/images/homepage/section2x1x2.jpeg";
-import section2x1x3 from "../../assets/images/homepage/section2x1x3.jpeg";
-import section2x1x4 from "../../assets/images/homepage/section2x1x4.jpeg";
-import section2x2x1 from "../../assets/images/homepage/section2x2x1.jpeg";
-import section2x2x2 from "../../assets/images/homepage/section2x2x2.jpeg";
-import section2x2x3 from "../../assets/images/homepage/section2x2x3.jpeg";
-import divider from "../../assets/icon/divider1.png";
-import arrowLeft from "../../assets/icon/arrow-left.svg";
-import arrowRight from "../../assets/icon/arrow-right.svg";
+import section2x1x1 from "/assets/images/homepage/section2x1x1.jpeg";
+import section2x1x2 from "/assets/images/homepage/section2x1x2.jpeg";
+import section2x1x3 from "/assets/images/homepage/section2x1x3.jpeg";
+import section2x1x4 from "/assets/images/homepage/section2x1x4.jpeg";
+import section2x2x1 from "/assets/images/homepage/section2x2x1.jpeg";
+import section2x2x2 from "/assets/images/homepage/section2x2x2.jpeg";
+import section2x2x3 from "/assets/images/homepage/section2x2x3.jpeg";
+import divider from "/assets/icon/divider1.png";
+import arrowLeft from "/assets/icon/arrow-left.svg";
+import arrowRight from "/assets/icon/arrow-right.svg";
 import { useState } from "react";
 
 function Section2() {

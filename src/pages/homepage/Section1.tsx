@@ -2,7 +2,7 @@ import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Section1.css";
-import portrait from "../../assets/images/homepage/section1.jpeg";
+import portrait from "/assets/images/homepage/section1.jpeg";
 import ImageFadeIn from "../../components/ImageFadeIn";
 
 function Section1() {

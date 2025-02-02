@@ -4,7 +4,7 @@ import GetText from "../../components/TextExtractor";
 import ImageFadeIn from "../../components/ImageFadeIn";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container, Row, Col, Modal, Carousel } from "react-bootstrap";
-import divider from "../../assets/icon/divider1.png";
+import divider from "/assets/icon/divider1.png";
 
 function Section4() {
   const { language } = useLanguage();
