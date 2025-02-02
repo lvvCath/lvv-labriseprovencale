@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Section3.css";
 import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container, Row, Col, Modal, Carousel } from "react-bootstrap";
-import divider from "../../assets/icon/divider1.png";
 
 function Section3() {
   const { language } = useLanguage();

@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Section6.css";
 import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
-import { Container, Row, Col, Modal, Carousel } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 type Section6Props = {
   page: string;

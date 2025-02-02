@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
