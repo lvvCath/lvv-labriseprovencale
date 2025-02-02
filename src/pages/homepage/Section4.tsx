@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container, Row, Col } from "react-bootstrap";
@@ -11,6 +12,12 @@ import section4x3 from "../../assets/images/homepage/section4x3.jpeg";
 function Section4() {
   const { language } = useLanguage();
   const links = ["/thevilla", "/guesthouse", "/information"];
+  const location = useLocation();
+
+  // Scroll to top on route change
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
 
   return (
     <Container fluid className="section4-container">
