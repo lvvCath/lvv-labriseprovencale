@@ -18,7 +18,6 @@ function Section3() {
           src={S3Video}
           autoPlay
           loop
-          muted
           controls
           style={{ width: "100%", height: "auto" }}
         />

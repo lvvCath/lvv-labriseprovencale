@@ -3,12 +3,7 @@ import Section1 from "./Section1";
 import Section2 from "./Section2";
 import Footer from "../../components/Footer";
 
-import { useEffect } from "react";
-
 export function Outdoor() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location]);
   return (
     <div>
       <Section0 page={"outdoor"} />

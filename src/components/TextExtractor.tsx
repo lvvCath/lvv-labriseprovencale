@@ -13,8 +13,16 @@ function GetText({ folder, page, section, field }: TextExtractorProps) {
   useEffect(() => {
     async function fetchText() {
       try {
-        const response = await import(`../translations/${folder}/${page}.json`);
-        setText(response[section][field]);
+        const response = await fetch(
+          `/assets/translations/${folder}/${page}.json`
+        );
+
+        if (!response.ok) {
+          throw new Error(`Failed to load ${page}.json`);
+        }
+
+        const data = await response.json();
+        setText(data?.[section]?.[field] || null);
       } catch (error) {
         console.error(
           `Error loading text content for ${page}, section ${section}, field ${field}:`,

@@ -6,12 +6,7 @@ import Section4 from "./Section4";
 import Section5 from "./Section5";
 import Footer from "../../components/Footer";
 
-import { useEffect } from "react";
-
 export function HomePage() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location]);
   return (
     <div>
       <Section0 />
