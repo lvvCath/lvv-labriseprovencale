@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 
 interface TextExtractorProps {
   folder: string;
@@ -36,14 +37,18 @@ function GetText({ folder, page, section, field }: TextExtractorProps) {
   }, [folder, page, section, field]);
 
   return (
-    <>
+    <motion.span
+      initial={{ opacity: 0, y: 5 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
+    >
       {text?.split("\n").map((line, index) => (
         <span key={index}>
           {line}
           {index < text.split("\n").length - 1 && <br />}
         </span>
       ))}
-    </>
+    </motion.span>
   );
 }
 

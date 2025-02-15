@@ -16,7 +16,7 @@ function Section3() {
       <div className="video3-container">
         <video
           src={S3Video}
-          autoPlay
+          autoPlay={false}
           loop
           controls
           style={{ width: "100%", height: "auto" }}
