@@ -26,41 +26,73 @@ function ScrollToTop() {
   return null;
 }
 
-function App() {
+function AppContent() {
   const [isLoading, setIsLoading] = useState(true);
+  const location = useLocation();
 
   useEffect(() => {
+    setIsLoading(true);
+
     const handleLoad = () => setIsLoading(false);
 
-    // Wait for fonts and images to load
-    if (document.readyState === "complete") {
-      handleLoad();
-    } else {
-      window.addEventListener("load", handleLoad);
-    }
+    // Wait for images to fully load
+    const allImages = Array.from(document.images);
+    const imagePromises = allImages.map(
+      (img) =>
+        new Promise<void>((resolve) =>
+          img.complete ? resolve() : (img.onload = () => resolve())
+        )
+    );
 
-    return () => window.removeEventListener("load", handleLoad);
-  }, []);
+    // Simulate a short text load delay
+    const textLoaded = new Promise<void>((resolve) =>
+      setTimeout(() => resolve(), 100)
+    );
 
+    // Wait for video to load (if any)
+    const video = document.querySelector("video");
+    const videoLoaded = video
+      ? new Promise<void>((resolve) =>
+          video.readyState >= 3
+            ? resolve()
+            : (video.onloadeddata = () => resolve())
+        )
+      : Promise.resolve();
+
+    Promise.all([...imagePromises, textLoaded, videoLoaded]).then(handleLoad);
+
+    return () => {
+      allImages.forEach((img) => (img.onload = null));
+      if (video) video.onloadeddata = null;
+    };
+  }, [location.pathname]);
+
+  return (
+    <>
+      {isLoading && <LoadingScreen />}
+      {!isLoading && (
+        <>
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/thevilla" element={<TheVilla />} />
+            <Route path="/guesthouse" element={<GuestHouse />} />
+            <Route path="/outdoor" element={<Outdoor />} />
+            <Route path="/information" element={<Information />} />
+            <Route path="/contactus" element={<ContactUs />} />
+          </Routes>
+        </>
+      )}
+    </>
+  );
+}
+
+function App() {
   return (
     <LanguageProvider>
       <Router>
         <ScrollToTop />
-        {isLoading ? (
-          <LoadingScreen />
-        ) : (
-          <>
-            <NavBar />
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/thevilla" element={<TheVilla />} />
-              <Route path="/guesthouse" element={<GuestHouse />} />
-              <Route path="/outdoor" element={<Outdoor />} />
-              <Route path="/information" element={<Information />} />
-              <Route path="/contactus" element={<ContactUs />} />
-            </Routes>
-          </>
-        )}
+        <AppContent />
       </Router>
     </LanguageProvider>
   );
