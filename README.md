@@ -74,7 +74,7 @@ Designed and developed by [lvvCath](https://github.com/lvvCath)
 
 ## **License**
 
-This project is licensed under the **MIT License**, granting both the developer (**[Your Name]**) and the client (**La Brise Provençale Villa**) shared rights to the code and design.
+This project is licensed under the **MIT License**, granting both the developer (**lvvCath**) and the client (**La Brise Provençale Villa**) shared rights to the code and design.
 
 - The client has full rights to use, modify, and distribute the website as part of their business operations.
 - The client may modify and update the code, including hiring other developers to do so. However, the original developer retains the right to showcase this project in their portfolio and reuse general components.
@@ -82,4 +82,4 @@ This project is licensed under the **MIT License**, granting both the developer 
 
 A full copy of the MIT License can be found in the `LICENSE` file.
 The source code and design of this project were developed as a freelance project for **La Brise Provençale Villa**. All rights to the website, including its code, design, and assets, belong to the client. Unauthorized reproduction, distribution, or modification of the content is not permitted without explicit consent from the client.
-This project is licensed under [MIT License] or any applicable license.
+This project is licensed under MIT License.
