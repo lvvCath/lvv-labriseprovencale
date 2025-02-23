@@ -17,3 +17,12 @@
     transform: translate(-50%, -50%);
     z-index: -1;
 }
+
+.video-logo {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    /* Adjust size as needed */
+    height: auto;
+}
