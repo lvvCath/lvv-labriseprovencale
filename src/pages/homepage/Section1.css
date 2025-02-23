@@ -58,30 +58,22 @@
 @media (max-width: 992px) {
   .section1-container {
     min-height: auto;
-    /* Remove height constraint on smaller screens */
     padding: 2rem 1rem !important;
-    /* Add padding for better readability on small screens */
   }
 
   .content-container {
     padding-right: 1rem !important;
-    /* Reduce padding for smaller screens */
     padding-left: 1rem !important;
   }
 
   .portrait-container {
     position: static;
-    /* Reset position to avoid overflow issues */
     margin-top: 2rem;
-    /* Add spacing between the image and text */
   }
 
   .portrait-image {
     position: relative;
-    /* Adjust position so it stays within its column */
     width: 100%;
-    /* Make the image full-width within the column */
     transform: none !important;
-    /* Remove the transform for better alignment */
   }
 }

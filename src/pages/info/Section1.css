@@ -19,9 +19,7 @@
         padding: 2rem 2rem 1rem 2rem;
         z-index: 2;
         width: fit-content;
-        /* Shrink to fit content */
         max-width: 100%;
-        /* Prevent overflow */
     }
 
     .content {
@@ -33,7 +31,8 @@
         margin-right: 0.5rem;
     }
 
-    .body-text-dark {font-weight: 600;
+    .body-text-dark {
+        font-weight: 600;
         color: var(--header-text-color-dark);
     }
 

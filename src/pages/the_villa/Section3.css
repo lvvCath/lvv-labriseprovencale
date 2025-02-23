@@ -128,7 +128,6 @@
         }
     }
 
-    /* Medium screens */
     @media (max-width: 1024px) {
         .navigation {
             text-align: center;
@@ -139,7 +138,6 @@
         .content-section {
             padding: 2rem 4rem;
 
-            /* Adjust padding for medium screens */
             .content {
                 padding-top: 2rem;
                 padding-left: calc(var(--bs-gutter-x)* 0.5);
@@ -157,7 +155,6 @@
         .navigation,
         .content-section {
             padding: 1.5rem 3rem;
-            /* Adjust padding for small screens */
         }
     }
 
@@ -171,7 +168,6 @@
         .navigation,
         .content-section {
             padding: 1rem 2rem;
-            /* Adjust padding for extra small screens */
         }
     }
 

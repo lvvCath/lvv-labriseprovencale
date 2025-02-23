@@ -8,14 +8,12 @@
     overflow: hidden;
     position: relative;
     padding: 2rem;
-    /* Add padding for smaller screens */
 }
 
 .s5-title {
     font-size: var(--h0-font-size);
     padding-bottom: 1rem;
     text-align: center;
-    /* Center title for better responsiveness */
 }
 
 .body5-container {
@@ -72,9 +70,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 80px;
-    /* Adjust for smaller screens */
     height: 80px;
-    /* Adjust for smaller screens */
     border-radius: 50%;
     z-index: 3;
     background-color: var(--palette-2);
@@ -91,9 +87,7 @@
 
 .label5-container {
     width: 90%;
-    /* Default for smaller screens */
     max-width: 65%;
-    /* Set max-width for larger screens */
     text-align: center;
     margin: 1rem auto;
     z-index: 2;

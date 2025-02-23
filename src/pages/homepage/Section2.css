@@ -8,9 +8,7 @@
 .image-column {
   display: flex;
   justify-content: center;
-  /* Centers the image horizontally */
   align-items: center;
-  /* Centers the image vertically */
   height: 100%;
   position: relative;
 }
@@ -19,9 +17,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  /* Centers the image horizontally */
   align-items: center;
-  /* Centers the image vertically */
   height: 100%;
   width: 100%;
 }
@@ -67,9 +63,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  /* Centers the image horizontally */
   align-items: center;
-  /* Centers the image vertically */
   height: 100%;
   width: 100%;
   margin-bottom: 10%;
@@ -142,12 +136,10 @@
   color: var(--palette-4);
   cursor: pointer;
   margin: 0 1rem;
-  /* Add space between the arrows and divider */
 }
 
 .divider-image {
   margin: 0 2rem;
-  /* Increase space around the divider */
   width: 6rem;
   height: auto;
 }

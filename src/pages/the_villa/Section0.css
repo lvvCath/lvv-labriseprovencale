@@ -58,7 +58,6 @@
         margin-top: 2%;
         padding-top: 7rem;
         padding-bottom: 2rem;
-        /* Ensure it does not overlap */
         z-index: 2;
         border-radius: 2rem;
 
@@ -74,25 +73,21 @@
     .thevilla-s0 {
         .img-container {
             height: 70vh;
-            /* Adjust image height for smaller screens */
         }
 
         .title-container {
             width: 80%;
             padding: 2rem;
             border-radius: 0.2rem 6rem;
-            /* Move closer to avoid overlap */
         }
 
         .subcontent {
             padding-top: 7rem;
-            /* Add more space for smaller screens */
             margin: 4rem auto;
         }
 
         .title {
             font-size: var(--h1-font-size) !important;
-            /* Reduce font size for responsiveness */
         }
     }
 

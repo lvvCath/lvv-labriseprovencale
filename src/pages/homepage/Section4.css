@@ -147,7 +147,6 @@
 @media (max-width: 768px) {
     .s4-title {
         font-size: var(--h1-font-size);
-        /* Adjust for smaller screens */
         padding: 0rem 3rem 0rem 3rem;
     }
 
@@ -161,14 +160,12 @@
 
     .s4-image-container {
         max-width: 100%;
-        /* Ensure images scale on smaller screens */
     }
 }
 
 @media (max-width: 480px) {
     .s4-title {
         font-size: var(--h2-font-size);
-        /* Further reduce title font size */
         padding: 0rem 2rem 0rem 2rem;
     }
 
@@ -178,11 +175,9 @@
 
     .body4-container {
         padding: 0rem 1rem;
-        /* Less padding for tighter layout */
     }
 
     .s4-image-container {
         max-width: 90%;
-        /* Allow more flexibility with image scaling */
     }
 }
