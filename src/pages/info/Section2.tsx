@@ -3,13 +3,6 @@ import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container, Row, Col } from "react-bootstrap";
 
-import info_address from "/assets/icon/info_address.svg";
-import info_attraction from "/assets/icon/info_attraction.svg";
-import info_transit from "/assets/icon/info_transit.svg";
-import info_resto from "/assets/icon/info_resto.svg";
-import info_airport from "/assets/icon/info_airport.svg";
-import info_ski from "/assets/icon/info_ski.svg";
-
 function Section2() {
   const { language } = useLanguage();
   const mapSrc =
@@ -84,7 +77,11 @@ function Section2() {
             />
           </h1>
           <div className="address">
-            <img src={info_address} className="icon" alt="icon" />
+            <img
+              src="/assets/icon/info_address.svg"
+              className="icon"
+              alt="icon"
+            />
             <p className="body-text-dark">
               <GetText
                 folder={language}
@@ -115,12 +112,12 @@ function Section2() {
 
           <Col xs={12} md={12} lg={4}>
             <ListSection
-              icon={info_attraction}
+              icon="/assets/icon/info_attraction.svg"
               section="section2xattractions"
               items={attractions}
             />
             <ListSection
-              icon={info_transit}
+              icon="/assets/icon/info_transit.svg"
               section="section2xtransit"
               items={transit}
             />
@@ -128,7 +125,7 @@ function Section2() {
 
           <Col xs={12} md={12} lg={4}>
             <ListSection
-              icon={info_resto}
+              icon="/assets/icon/info_resto.svg"
               section="section2xresto"
               items={resto}
             />
@@ -136,11 +133,15 @@ function Section2() {
 
           <Col xs={12} md={12} lg={4}>
             <ListSection
-              icon={info_airport}
+              icon="/assets/icon/info_airport.svg"
               section="section2xairport"
               items={airport}
             />
-            <ListSection icon={info_ski} section="section2xski" items={ski} />
+            <ListSection
+              icon="/assets/icon/info_ski.svg"
+              section="section2xski"
+              items={ski}
+            />
           </Col>
         </Row>
       </div>

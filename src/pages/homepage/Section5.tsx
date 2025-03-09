@@ -4,18 +4,16 @@ import { useLanguage } from "../../components/LanguageContext";
 import { Container } from "react-bootstrap";
 import "./Section5.css";
 
-const basePath = "/assets";
-
 const Section5 = () => {
   const { language } = useLanguage();
   const [currentSelection, setCurrentSelection] = useState(0);
 
   const currentSections = useMemo(
     () => [
-      `${basePath}/images/homepage/section5x1.jpg`,
-      `${basePath}/images/homepage/section5x2.jpg`,
-      `${basePath}/images/homepage/section5x3.jpg`,
-      `${basePath}/images/homepage/section5x4.jpg`,
+      "/assets/images/homepage/section5x1.webp",
+      "/assets/images/homepage/section5x2.webp",
+      "/assets/images/homepage/section5x3.webp",
+      "/assets/images/homepage/section5x4.webp",
     ],
     []
   );
@@ -34,8 +32,8 @@ const Section5 = () => {
 
   const logoImage =
     currentSelection < 2
-      ? `${basePath}/icon/airbnb.png`
-      : `${basePath}/icon/booking.png`;
+      ? "/assets/icon/airbnb.png"
+      : "/assets/icon/booking.png";
 
   return (
     <Container fluid className="section5-container">
@@ -75,13 +73,13 @@ const Section5 = () => {
             onClick={() => handleArrowClick("left")}
           >
             <img
-              src={`${basePath}/icon/arrow-left.svg`}
+              src={"/assets/icon/arrow-left.svg"}
               alt="Left Arrow"
               loading="lazy"
             />
           </button>
           <img
-            src={`${basePath}/icon/review-stars.png`}
+            src={"/assets/icon/review-stars.png"}
             alt="Divider"
             className="divider-image"
             loading="lazy"
@@ -91,7 +89,7 @@ const Section5 = () => {
             onClick={() => handleArrowClick("right")}
           >
             <img
-              src={`${basePath}/icon/arrow-right.svg`}
+              src={"/assets/icon/arrow-right.svg"}
               alt="Right Arrow"
               loading="lazy"
             />

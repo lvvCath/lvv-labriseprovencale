@@ -58,11 +58,11 @@ function Section5({ page }: Section6Props) {
         <Col className="container-btns" lg={9}>
           <Row>
             {navItems
-              .filter((item) => page === "thevilla" || item.page === page) // Filter logic
+              .filter((item) => page === "thevilla" || item.page === page)
               .map((item) => (
-                <Col className="container-btn">
+                <Col key={item.id} className="container-btn">
+                  {" "}
                   <button
-                    key={item.id}
                     className={`nav-btn ${
                       selectedNav === item.src ? "active" : ""
                     }`}

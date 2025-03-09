@@ -3,16 +3,12 @@ import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container, Row } from "react-bootstrap";
 
-import icon_whatsapp from "/assets/icon/icon_whatsapp.svg";
-import icon_email from "/assets/icon/icon_email.svg";
-import info_address from "/assets/icon/info_address.svg";
-
 import { FaFacebookSquare } from "react-icons/fa";
 
 const infoItems = [
-  { icon: icon_whatsapp, field: "number" },
-  { icon: icon_email, field: "email" },
-  { icon: info_address, field: "address" },
+  { icon: "/assets/icon/icon_whatsapp.svg", field: "number" },
+  { icon: "/assets/icon/icon_email.svg", field: "email" },
+  { icon: "/assets/icon/info_address.svg", field: "address" },
 ];
 
 function Section1() {

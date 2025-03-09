@@ -1,15 +1,21 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./Section1.css";
 import GetText from "../../components/TextExtractor";
 import ImageFadeIn from "../../components/ImageFadeIn";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container, Row, Col, Modal, Carousel } from "react-bootstrap";
-import divider from "/assets/icon/divider1.png";
+const divider = "/assets/icon/divider1.webp";
+
+function preloadImage(url: string) {
+  const img = new Image();
+  img.src = url;
+}
 
 function Section1() {
   const { language } = useLanguage();
   const [selectedNav, setSelectedNav] = useState("pool");
   const [showModal, setShowModal] = useState(false);
+  const [imageCache, setImageCache] = useState<{ [key: string]: string }>({});
 
   const navItems = [
     { id: "pool", label: "Swimming Pool" },
@@ -23,6 +29,17 @@ function Section1() {
     setShowModal(true);
   };
 
+  useEffect(() => {
+    // Preload images when component mounts
+    const newCache: { [key: string]: string } = {};
+    [1, 2, 3, 4, 5, 6, 7].forEach((num) => {
+      const url = `/assets/images/amenities/${selectedNav}/${num}.webp`;
+      preloadImage(url);
+      newCache[num] = url;
+    });
+    setImageCache(newCache);
+  }, [selectedNav]);
+
   return (
     <Container fluid className="outdoor-s4">
       <Row className="navigation">
@@ -31,15 +48,14 @@ function Section1() {
         </Row>
 
         <Row className="btns-container">
-          {navItems.slice(0, 5).map((item) => (
-            <Col className="btns">
+          {navItems.map((item) => (
+            <Col key={item.id} className="btns">
               <img
                 src={`assets/icon/amenities-${item.id}.svg`}
                 alt={item.id}
                 className="btn-img"
               />
               <button
-                key={item.id}
                 className={`nav-button underline-effect ${
                   selectedNav === item.id ? "active" : ""
                 }`}
@@ -87,7 +103,10 @@ function Section1() {
           <Col lg={7}>
             <div className="img-title">
               <ImageFadeIn
-                src={`assets/images/amenities/${selectedNav}/1.jpeg`}
+                src={
+                  imageCache[1] ||
+                  `/assets/images/amenities/${selectedNav}/1.webp`
+                }
                 alt="Portrait"
               />
             </div>
@@ -104,9 +123,13 @@ function Section1() {
                 onClick={() => handleImageClick()}
               >
                 <img
-                  src={`assets/images/amenities/${selectedNav}/${num}.jpeg`}
+                  src={
+                    imageCache[num] ||
+                    `/assets/images/amenities/${selectedNav}/${num}.webp`
+                  }
                   alt=""
                   className="image"
+                  loading="eager"
                 />
               </div>
             ))}
@@ -173,10 +196,13 @@ function Section1() {
             <Modal.Body>
               <Carousel data-bs-theme="dark">
                 {[1, 2, 3, 4, 5, 6, 7].map((num) => (
-                  <Carousel.Item>
+                  <Carousel.Item key={`${selectedNav}-carousel-${num}`}>
                     <div className="modal-image">
                       <img
-                        src={`assets/images/amenities/${selectedNav}/${num}.jpeg`}
+                        src={
+                          imageCache[num] ||
+                          `/assets/images/amenities/${selectedNav}/${num}.webp`
+                        }
                         alt=""
                       />
                     </div>

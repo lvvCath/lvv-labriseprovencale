@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./Section6.css";
 import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
@@ -11,6 +11,7 @@ type Section6Props = {
 function Section6({ page }: Section6Props) {
   const { language } = useLanguage();
   const [selectedNav, setSelectedNav] = useState("ground");
+  const [imageCache, setImageCache] = useState<Record<string, string>>({});
 
   const navItems = [
     { id: "ground", label: "Ground Floor", page: "guesthouse" },
@@ -19,6 +20,32 @@ function Section6({ page }: Section6Props) {
     { id: "gs", label: "Guest Suite", page: "guesthouse" },
     { id: "basement", label: "Basement", page: "guesthouse" },
   ];
+
+  // useEffect to update selectedNav when page changes
+  useEffect(() => {
+    const firstRelevantItem = navItems.find(
+      (item) => page === "thevilla" || item.page === page
+    );
+    if (firstRelevantItem) {
+      setSelectedNav(firstRelevantItem.id);
+    }
+  }, [page]);
+
+  // useEffect to preload images
+  useEffect(() => {
+    const preloadImages = async () => {
+      const cache: Record<string, string> = {};
+      for (const item of navItems) {
+        const img = new Image();
+        img.src = `/assets/images/floorplan/${language}/${item.id}.webp`;
+        await img.decode().catch(() => {}); // Ensures the image is loaded
+        cache[item.id] = img.src;
+      }
+      setImageCache(cache);
+    };
+
+    preloadImages();
+  }, [language]); // Re-run when language changes
 
   return (
     <Container fluid className="thevilla-s6">
@@ -64,7 +91,10 @@ function Section6({ page }: Section6Props) {
       </Row>
       <Row className="content-section">
         <img
-          src={`assets/images/floorplan/${language}/${selectedNav}.png`}
+          src={
+            imageCache[selectedNav] ||
+            `/assets/images/floorplan/${language}/${selectedNav}.webp`
+          }
           alt=""
         />
       </Row>

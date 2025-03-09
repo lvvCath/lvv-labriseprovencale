@@ -9,7 +9,7 @@ function Section0() {
         muted
         loop
         playsInline
-        poster="/assets/video/video-poster.png" // Placeholder before video loads
+        poster="/assets/video/video-poster.webp" // Placeholder before video loads
       >
         <source src="/assets/video/Homepage.mp4" type="video/mp4" />
         Your browser does not support the video tag.

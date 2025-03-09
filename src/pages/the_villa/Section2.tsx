@@ -1,15 +1,15 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./Section2.css";
 import GetText from "../../components/TextExtractor";
 import ImageFadeIn from "../../components/ImageFadeIn";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container, Row, Col, Modal, Carousel } from "react-bootstrap";
-import divider from "/assets/icon/divider1.png";
 
 function Section2() {
   const { language } = useLanguage();
   const [selectedNav, setSelectedNav] = useState("bedroom");
   const [showModal, setShowModal] = useState(false);
+  const [imageCache, setImageCache] = useState<Record<string, string>>({});
 
   const navItems = [
     { id: "bedroom", label: "Bedroom" },
@@ -19,6 +19,44 @@ function Section2() {
     { id: "kitchen", label: "Kitchen" },
     { id: "diningroom", label: "Dining Room" },
   ];
+
+  useEffect(() => {
+    const preloadImages = async () => {
+      const cache: Record<string, string> = {};
+
+      // Load bedroom images first
+      cache["bedroom"] = `/assets/images/thevilla/section2x1xbedroom.webp`;
+      for (let i = 1; i <= 4; i++) {
+        const img = new Image();
+        img.src = `/assets/images/thevilla/bedroom/${i}.webp`;
+        await img.decode().catch(() => {});
+        cache[`bedroom_${i}`] = img.src;
+      }
+
+      // Update the state for bedroom images first
+      setImageCache((prev) => ({ ...prev, ...cache }));
+
+      // Load other images asynchronously
+      const otherCache: Record<string, string> = {};
+      for (const item of navItems) {
+        if (item.id === "bedroom") continue; // Skip bedroom since it's already loaded
+        otherCache[
+          item.id
+        ] = `/assets/images/thevilla/section2x1x${item.id}.webp`;
+        for (let i = 1; i <= 4; i++) {
+          const img = new Image();
+          img.src = `/assets/images/thevilla/${item.id}/${i}.webp`;
+          await img.decode().catch(() => {});
+          otherCache[`${item.id}_${i}`] = img.src;
+        }
+      }
+
+      // Update cache with other images
+      setImageCache((prev) => ({ ...prev, ...otherCache }));
+    };
+
+    preloadImages();
+  }, []);
 
   const handleImageClick = () => {
     setShowModal(true);
@@ -43,9 +81,8 @@ function Section2() {
           </Row>
           <Row>
             {navItems.slice(0, 3).map((item) => (
-              <Col className="btns">
+              <Col className="btns" key={item.id}>
                 <button
-                  key={item.id}
                   className={`nav-button underline-effect ${
                     selectedNav === item.id ? "active" : ""
                   }`}
@@ -64,16 +101,14 @@ function Section2() {
             ))}
           </Row>
         </Col>
-
         <Col className="nav_container_s2">
           <Row>
             <span className="nav-line"></span>
           </Row>
           <Row>
             {navItems.slice(3).map((item) => (
-              <Col className="btns">
+              <Col className="btns" key={item.id}>
                 <button
-                  key={item.id}
                   className={`nav-button underline-effect ${
                     selectedNav === item.id ? "active" : ""
                   }`}
@@ -95,14 +130,14 @@ function Section2() {
       </Row>
 
       <div className="content-section">
-        {/* Room Image */}
         <ImageFadeIn
-          src={`assets/images/thevilla/section2x1x${selectedNav}.jpeg`}
+          src={
+            imageCache[selectedNav] ||
+            `/assets/images/thevilla/section2x1x${selectedNav}.webp`
+          }
           alt="Portrait"
           className="img-title-s2"
         />
-
-        {/* Room Title */}
         <div className="content-title-container">
           <h1 className="header-text-dark title">
             <GetText
@@ -120,28 +155,33 @@ function Section2() {
               field={`${selectedNav}xsubtitle`}
             />
           </p>
-          <img src={divider} alt="Divider" className="divider-image" />
+          <img
+            src="/assets/icon/divider1.webp"
+            alt="Divider"
+            className="divider-image"
+          />
         </div>
 
-        {/* Room Details */}
         <Row>
-          {/* Images */}
           <Col xs={12} md={12} lg={7} className="img-container-s2">
             {[1, 2, 3, 4].map((num) => (
               <div
                 key={num}
                 className={`img-container img-${num}-container`}
-                onClick={() => handleImageClick()}
+                onClick={handleImageClick}
               >
                 <img
-                  src={`assets/images/thevilla/${selectedNav}/${num}.jpeg`}
+                  src={`/assets/images/thevilla/${selectedNav}/${num}.webp`}
                   alt=""
                   className="image"
+                  loading="eager"
+                  onError={(e) =>
+                    (e.currentTarget.src = "/assets/images/placeholder.webp")
+                  }
                 />
               </div>
             ))}
           </Col>
-          {/* Info */}
           <Col xs={12} md={12} lg={5} className="content">
             <p className="body-text-dark">
               <GetText
@@ -151,7 +191,6 @@ function Section2() {
                 field="content"
               />
             </p>
-
             <Row className="amenities">
               {selectedNav === "bedroom" || selectedNav === "kidsroom" ? (
                 <>
@@ -160,7 +199,6 @@ function Section2() {
                       <div className="diamond"></div>
                     </span>
                   </div>
-
                   <Col>
                     <p className="body-text-dark bold">
                       <GetText
@@ -176,24 +214,6 @@ function Section2() {
                         page="thevilla"
                         section={`section2x${selectedNav}`}
                         field="bullet1"
-                      />
-                    </p>
-                  </Col>
-                  <Col>
-                    <p className="body-text-dark bold">
-                      <GetText
-                        folder={language}
-                        page="thevilla"
-                        section={`section2x${selectedNav}`}
-                        field="amenities2"
-                      />
-                    </p>
-                    <p className="body-text-dark">
-                      <GetText
-                        folder={language}
-                        page="thevilla"
-                        section={`section2x${selectedNav}`}
-                        field="bullet2"
                       />
                     </p>
                   </Col>
@@ -250,11 +270,16 @@ function Section2() {
           <Modal.Body>
             <Carousel data-bs-theme="dark">
               {[1, 2, 3, 4].map((num) => (
-                <Carousel.Item>
+                <Carousel.Item key={`${selectedNav}-carousel-${num}`}>
                   <div className="modal-image">
                     <img
-                      src={`assets/images/thevilla/${selectedNav}/${num}.jpeg`}
+                      src={`/assets/images/thevilla/${selectedNav}/${num}.webp`}
                       alt=""
+                      loading="lazy"
+                      onError={(e) =>
+                        (e.currentTarget.src =
+                          "/assets/images/placeholder.webp")
+                      }
                     />
                   </div>
                 </Carousel.Item>

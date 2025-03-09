@@ -22,18 +22,6 @@
         box-shadow: 0 4px 20px 5px rgba(0.1, 0.1, 0, 0.1);
     }
 
-    .s0-thevilla {
-        background-image: url('/assets/images/thevilla/section0.jpeg');
-    }
-
-    .s0-guesthouse {
-        background-image: url('/assets/images/guesthouse/section0.jpeg');
-    }
-
-    .s0-outdoor {
-        background-image: url('/assets/images/outdoor/section0.jpeg');
-    }
-
     .title-container {
         width: 60%;
         position: absolute;

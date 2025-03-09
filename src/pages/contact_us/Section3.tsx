@@ -5,11 +5,6 @@ import { useLanguage } from "../../components/LanguageContext";
 
 import { Container, Row, Col } from "react-bootstrap";
 
-import divider from "/assets/icon/divider1.png";
-
-import section4x1 from "/assets/icon/airbnb.png";
-import section4x2 from "/assets/icon/booking.png";
-
 function Section3() {
   const { language } = useLanguage();
   const links = [
@@ -37,20 +32,26 @@ function Section3() {
             field="message"
           />
         </p>
-        <img src={divider} alt="Divider" className="divider-image" />
+        <img
+          src="/assets/icon/divider1.webp"
+          alt="Divider"
+          className="divider-image"
+        />
       </Row>
 
       <Row className="bookings">
-        {[section4x1, section4x2].map((src, index) => (
-          <Col lg={6} className="col-container" key={`image-${index}`}>
-            <div className="image-container">
-              <a href={links[index]} className="image-link">
-                <ImageFadeIn src={src} alt="Portrait" className="image" />
-                <p className="body-text-dark">{site[index]}</p>
-              </a>
-            </div>
-          </Col>
-        ))}
+        {["/assets/icon/airbnb.png", "/assets/icon/booking.png"].map(
+          (src, index) => (
+            <Col lg={6} className="col-container" key={`image-${index}`}>
+              <div className="image-container">
+                <a href={links[index]} className="image-link">
+                  <ImageFadeIn src={src} alt="Portrait" className="image" />
+                  <p className="body-text-dark">{site[index]}</p>
+                </a>
+              </div>
+            </Col>
+          )
+        )}
       </Row>
     </Container>
   );

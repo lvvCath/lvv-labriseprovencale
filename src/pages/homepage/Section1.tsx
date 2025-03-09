@@ -4,9 +4,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./Section1.css";
 import ImageFadeIn from "../../components/ImageFadeIn";
 
-// Lazy load the image source
-const portraitSrc = "/assets/images/homepage/section1.jpeg";
-
 function Section1() {
   const { language } = useLanguage();
 
@@ -36,7 +33,7 @@ function Section1() {
         {/* Image Content */}
         <Col md={4} lg={4} className="portrait-container">
           <ImageFadeIn
-            src={portraitSrc}
+            src="/assets/images/homepage/section1.webp"
             alt="Portrait"
             className="portrait-image"
           />

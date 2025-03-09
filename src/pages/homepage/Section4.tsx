@@ -6,9 +6,9 @@ import "./Section4.css";
 import ImageFadeIn from "../../components/ImageFadeIn";
 
 const section4Images = [
-  "/assets/images/homepage/section4x1.jpeg",
-  "/assets/images/homepage/section4x2.jpeg",
-  "/assets/images/homepage/section4x3.jpeg",
+  "/assets/images/homepage/section4x1.webp",
+  "/assets/images/homepage/section4x2.webp",
+  "/assets/images/homepage/section4x3.webp",
 ];
 
 const links = ["/thevilla", "/guesthouse", "/information"];

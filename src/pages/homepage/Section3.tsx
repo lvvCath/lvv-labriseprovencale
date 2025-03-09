@@ -18,7 +18,7 @@ function Section3() {
           loop
           controls
           style={{ width: "100%", height: "auto" }}
-          poster="/assets/video/video-poster.png"
+          poster="/assets/video/video-poster.webp"
         >
           <source src="/assets/video/villa-tour.mp4" type="video/mp4" />
           Your browser does not support the video tag.

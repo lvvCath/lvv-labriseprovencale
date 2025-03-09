@@ -10,7 +10,7 @@ interface ImageFadeInProps {
 function ImageFadeIn({ src, alt, className = "" }: ImageFadeInProps) {
   const imgRef = useRef<HTMLImageElement>(null);
   const [imageSrc, setImageSrc] = useState<string>(
-    "/assets/images/placeholder.jpg"
+    "/assets/images/placeholder.webp"
   ); // Default placeholder
 
   useEffect(() => {
@@ -38,6 +38,8 @@ function ImageFadeIn({ src, alt, className = "" }: ImageFadeInProps) {
       src={imageSrc}
       alt={alt}
       className={`fade-in-image ${className}`}
+      loading="eager"
+      onError={(e) => (e.currentTarget.src = "/assets/images/placeholder.webp")}
     />
   );
 }

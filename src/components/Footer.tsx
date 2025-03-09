@@ -2,7 +2,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
 import GetText from "./TextExtractor";
 import { useLanguage } from "./LanguageContext";
-import logo from "/assets/icon/logo.png";
 import { FaFacebookSquare, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 function Footer() {
@@ -13,7 +12,7 @@ function Footer() {
       <Row>
         {/* Logo | Email | Address */}
         <Col className="footer-col-1">
-          <img src={logo} className="footer-logo" alt="logo" />
+          <img src="/assets/icon/logo.png" className="footer-logo" alt="logo" />
           <div className="footer-email">
             <FaEnvelope className="footer-icon" />
             <p className="body-text-light">la.brise.provencale@gmail.com</p>

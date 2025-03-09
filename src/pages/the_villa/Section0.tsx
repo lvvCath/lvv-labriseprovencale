@@ -2,7 +2,8 @@ import "./Section0.css";
 import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container } from "react-bootstrap";
-import divider from "/assets/icon/divider1.png";
+
+const divider = "/assets/icon/divider1.webp";
 
 type Section0Props = {
   page: string;
@@ -10,10 +11,15 @@ type Section0Props = {
 
 function Section0({ page }: Section0Props) {
   const { language } = useLanguage();
+  const sectionImage = `/assets/images/${page}/section0.webp`;
+
   return (
     <Container fluid className="thevilla-s0">
       {/* Hero Image */}
-      <div className={`s0-img-container s0-${page}`}>
+      <div
+        className={`s0-img-container s0-${page}`}
+        style={{ backgroundImage: `url(${sectionImage})` }}
+      >
         {/* Title */}
         <div className="title-container">
           <h1 className="header-text-light title">

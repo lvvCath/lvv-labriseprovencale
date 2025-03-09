@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./Section3.css";
 import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
@@ -8,6 +8,9 @@ function Section3() {
   const { language } = useLanguage();
   const [selectedNav, setSelectedNav] = useState("violet");
   const [showModal, setShowModal] = useState(false);
+  const [imageCache, setImageCache] = useState<
+    Record<string, Record<string, string>>
+  >({});
 
   const navItems = [
     { id: "violet", label: "Violet Room" },
@@ -17,6 +20,38 @@ function Section3() {
     { id: "living", label: "Living Room" },
     { id: "kitchen", label: "Kitchen & Dining" },
   ];
+
+  useEffect(() => {
+    const preloadImages = async () => {
+      const cache: Record<string, Record<string, string>> = {};
+
+      // Preload images for Violet Room first
+      cache["violet"] = {};
+      for (const num of [1, 2, 3, 4]) {
+        const img = new Image();
+        img.src = `/assets/images/guesthouse/violet/${num}.webp`;
+        await img.decode().catch(() => {});
+        cache["violet"][num.toString()] = img.src;
+      }
+
+      setImageCache(cache);
+
+      // Load other images asynchronously
+      for (const item of navItems) {
+        if (item.id === "violet") continue;
+        cache[item.id] = {};
+        for (const num of [1, 2, 3, 4]) {
+          const img = new Image();
+          img.src = `/assets/images/guesthouse/${item.id}/${num}.webp`;
+          await img.decode().catch(() => {});
+          cache[item.id][num.toString()] = img.src;
+        }
+      }
+      setImageCache({ ...cache });
+    };
+
+    preloadImages();
+  }, []);
 
   const handleImageClick = () => {
     setShowModal(true);
@@ -38,9 +73,8 @@ function Section3() {
         <Col className="container-btns" lg={9}>
           <Row>
             {navItems.map((item) => (
-              <Col className="container-btn">
+              <Col className="container-btn" key={item.id}>
                 <button
-                  key={item.id}
                   className={`nav-btn ${
                     selectedNav === item.id ? "active" : ""
                   }`}
@@ -70,12 +104,19 @@ function Section3() {
             <div
               key={num}
               className={`img-container img-${num}-container`}
-              onClick={() => handleImageClick()}
+              onClick={handleImageClick}
             >
               <img
-                src={`assets/images/guesthouse/${selectedNav}/${num}.jpeg`}
+                src={
+                  imageCache[selectedNav]?.[num.toString()] ||
+                  `/assets/images/guesthouse/${selectedNav}/${num}.webp`
+                }
                 alt=""
                 className="image"
+                loading="eager"
+                onError={(e) =>
+                  (e.currentTarget.src = "/assets/images/placeholder.webp")
+                }
               />
             </div>
           ))}
@@ -140,7 +181,6 @@ function Section3() {
                     <div className="diamond"></div>
                   </span>
                 </div>
-
                 <Col>
                   <p className="body-text-dark bold">
                     <GetText
@@ -205,11 +245,16 @@ function Section3() {
           <Modal.Body>
             <Carousel data-bs-theme="dark">
               {[1, 2, 3, 4].map((num) => (
-                <Carousel.Item>
+                <Carousel.Item key={`${selectedNav}-carousel-${num}`}>
                   <div className="modal-image">
                     <img
-                      src={`assets/images/guesthouse/${selectedNav}/${num}.jpeg`}
+                      src={`/assets/images/guesthouse/${selectedNav}/${num}.webp`}
                       alt=""
+                      loading="lazy"
+                      onError={(e) =>
+                        (e.currentTarget.src =
+                          "/assets/images/placeholder.webp")
+                      }
                     />
                   </div>
                 </Carousel.Item>

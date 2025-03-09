@@ -3,18 +3,13 @@ import GetText from "../../components/TextExtractor";
 import { useLanguage } from "../../components/LanguageContext";
 import { Container } from "react-bootstrap";
 
-import info_surface from "/assets/icon/info-surface.svg";
-import info_parking from "/assets/icon/info-parking.svg";
-import info_internet from "/assets/icon/info-internet.svg";
-import info_home from "/assets/icon/info-home.svg";
-
 const infoItems = [
-  { icon: info_surface, field: "surface" },
-  { icon: info_parking, field: "parking" },
-  { icon: info_internet, field: "internet" },
-  { icon: info_home, field: "leftwing" },
-  { icon: info_home, field: "basement" },
-  { icon: info_home, field: "rightwing" },
+  { icon: "/assets/icon/info-surface.svg", field: "surface" },
+  { icon: "/assets/icon/info-parking.svg", field: "parking" },
+  { icon: "/assets/icon/info-internet.svg", field: "internet" },
+  { icon: "/assets/icon/info-home.svg", field: "leftwing" },
+  { icon: "/assets/icon/info-home.svg", field: "basement" },
+  { icon: "/assets/icon/info-home.svg", field: "rightwing" },
 ];
 
 function Section1() {

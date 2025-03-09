@@ -7,21 +7,17 @@ import "./Section2.css";
 
 // Image paths (stored in public folder)
 const row1Sections = [
-  "/assets/images/homepage/section2x1x1.jpeg",
-  "/assets/images/homepage/section2x1x2.jpeg",
-  "/assets/images/homepage/section2x1x3.jpeg",
-  "/assets/images/homepage/section2x1x4.jpeg",
+  "/assets/images/homepage/section2x1x1.webp",
+  "/assets/images/homepage/section2x1x2.webp",
+  "/assets/images/homepage/section2x1x3.webp",
+  "/assets/images/homepage/section2x1x4.webp",
 ];
 
 const row2Sections = [
-  "/assets/images/homepage/section2x2x1.jpeg",
-  "/assets/images/homepage/section2x2x2.jpeg",
-  "/assets/images/homepage/section2x2x3.jpeg",
+  "/assets/images/homepage/section2x2x1.webp",
+  "/assets/images/homepage/section2x2x2.webp",
+  "/assets/images/homepage/section2x2x3.webp",
 ];
-
-const divider = "/assets/icon/divider1.png";
-const arrowLeft = "/assets/icon/arrow-left.svg";
-const arrowRight = "/assets/icon/arrow-right.svg";
 
 function Section2() {
   const { language } = useLanguage();
@@ -82,15 +78,19 @@ function Section2() {
               onClick={() => updateIndex(1, "left")}
               aria-label="Previous Image"
             >
-              <img src={arrowLeft} alt="Left Arrow" />
+              <img src="/assets/icon/arrow-left.svg" alt="Left Arrow" />
             </button>
-            <img src={divider} alt="Divider" className="divider-image" />
+            <img
+              src="/assets/icon/divider1.webp"
+              alt="Divider"
+              className="divider-image"
+            />
             <button
               className="arrow-button"
               onClick={() => updateIndex(1, "right")}
               aria-label="Next Image"
             >
-              <img src={arrowRight} alt="Right Arrow" />
+              <img src="/assets/icon/arrow-right.svg" alt="Right Arrow" />
             </button>
           </div>
         </Col>
@@ -123,15 +123,19 @@ function Section2() {
               onClick={() => updateIndex(2, "left")}
               aria-label="Previous Image"
             >
-              <img src={arrowLeft} alt="Left Arrow" />
+              <img src="/assets/icon/arrow-left.svg" alt="Left Arrow" />
             </button>
-            <img src={divider} alt="Divider" className="divider-image" />
+            <img
+              src="/assets/icon/divider1.webp"
+              alt="Divider"
+              className="divider-image"
+            />
             <button
               className="arrow-button"
               onClick={() => updateIndex(2, "right")}
               aria-label="Next Image"
             >
-              <img src={arrowRight} alt="Right Arrow" />
+              <img src="/assets/icon/arrow-right.svg" alt="Right Arrow" />
             </button>
           </div>
         </Col>
