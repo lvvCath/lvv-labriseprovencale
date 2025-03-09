@@ -4,16 +4,21 @@ import { useLanguage } from "../../components/LanguageContext";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Section4.css";
 import ImageFadeIn from "../../components/ImageFadeIn";
-import section4x1 from "/assets/images/homepage/section4x1.jpeg";
-import section4x2 from "/assets/images/homepage/section4x2.jpeg";
-import section4x3 from "/assets/images/homepage/section4x3.jpeg";
+
+const section4Images = [
+  "/assets/images/homepage/section4x1.jpeg",
+  "/assets/images/homepage/section4x2.jpeg",
+  "/assets/images/homepage/section4x3.jpeg",
+];
+
+const links = ["/thevilla", "/guesthouse", "/information"];
 
 function Section4() {
   const { language } = useLanguage();
-  const links = ["/thevilla", "/guesthouse", "/information"];
 
   return (
     <Container fluid className="section4-container">
+      {/* Title Divider */}
       <div className="s4-title-divider">
         <span className="line-with-diamond">
           <div className="diamond"></div>
@@ -31,8 +36,9 @@ function Section4() {
         </span>
       </div>
 
+      {/* Image & Content Grid */}
       <Row className="body4-container">
-        {[section4x1, section4x2, section4x3].map((src, index) => (
+        {section4Images.map((src, index) => (
           <Col
             lg={4}
             className="s4-col-container"
@@ -40,7 +46,11 @@ function Section4() {
           >
             <div className="s4-image-container">
               <Link to={links[index]} className="s4-image-link">
-                <ImageFadeIn src={src} alt="Portrait" className="s4-image" />
+                <ImageFadeIn
+                  src={src}
+                  alt={`Section ${index + 1}`}
+                  className="s4-image"
+                />
                 <div className="s4-overlay">
                   <p className="body-text-dark">
                     <GetText
@@ -74,6 +84,7 @@ function Section4() {
         ))}
       </Row>
 
+      {/* End Divider */}
       <div className="s4-title-divider">
         <span className="line-with-diamond"></span>
       </div>

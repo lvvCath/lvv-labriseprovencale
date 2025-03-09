@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./ImageFadeIn.css";
 
 interface ImageFadeInProps {
@@ -9,37 +9,36 @@ interface ImageFadeInProps {
 
 function ImageFadeIn({ src, alt, className = "" }: ImageFadeInProps) {
   const imgRef = useRef<HTMLImageElement>(null);
+  const [imageSrc, setImageSrc] = useState<string>(
+    "/assets/images/placeholder.jpg"
+  ); // Default placeholder
 
   useEffect(() => {
     const img = imgRef.current;
     const observer = new IntersectionObserver(
-      (entries) => {
+      (entries, observer) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
+            setImageSrc(src); // Load the actual image
             img?.classList.add("visible");
+            observer.disconnect(); // Stop observing after loading
           }
         });
       },
-      { threshold: 0.3 } // Adjust threshold to trigger fade-in earlier or later
+      { threshold: 0.3 }
     );
 
-    if (img) {
-      observer.observe(img);
-    }
-
-    return () => {
-      if (img) {
-        observer.unobserve(img);
-      }
-    };
-  }, []);
+    if (img) observer.observe(img);
+    return () => observer.disconnect();
+  }, [src]);
 
   return (
     <img
       ref={imgRef}
-      src={src}
+      src={imageSrc}
       alt={alt}
       className={`fade-in-image ${className}`}
+      loading="lazy"
     />
   );
 }

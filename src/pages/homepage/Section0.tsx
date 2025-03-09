@@ -1,15 +1,26 @@
 import "./Section0.css";
-import HomepageVideo from "/assets/video/Homepage.mp4";
-import Logo from "/assets/icon/logo.png";
 
 function Section0() {
   return (
     <div className="video-container">
-      <video className="video-background" autoPlay muted loop playsInline>
-        <source src={HomepageVideo} type="video/mp4" />
+      <video
+        className="video-background"
+        autoPlay
+        muted
+        loop
+        playsInline
+        poster="/assets/video/video-poster.png" // Placeholder before video loads
+      >
+        <source src="/assets/video/Homepage.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <img src={Logo} alt="Logo" className="video-logo" />
+
+      <img
+        src="/assets/icon/logo.png"
+        alt="Logo"
+        className="video-logo"
+        loading="lazy"
+      />
     </div>
   );
 }
