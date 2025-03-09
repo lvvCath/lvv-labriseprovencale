@@ -38,7 +38,6 @@ function ImageFadeIn({ src, alt, className = "" }: ImageFadeInProps) {
       src={imageSrc}
       alt={alt}
       className={`fade-in-image ${className}`}
-      loading="lazy"
     />
   );
 }
